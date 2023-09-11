@@ -1,10 +1,15 @@
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
 import '../../App.css'
+import { Drawer, Menu } from '@mui/material';
+import { useScroll } from 'framer-motion';
+import { useState } from 'react';
+import CloseIcon from '@mui/icons-material/Close';
 
 const NavBar = () => {
+    const [isDrawerOpen, setIsDrawerOpen] = useState(false);
     return (
-        <div className="w-screen h-16 bg-gray-800 relative flex justify-center items-center fixed" >
+        <div className="w-screen h-16 bg-black relative flex justify-center items-center fixed" >
             <h2 className="text-white absolute left-20" style={{fontFamily:'Montserrat'}}><Link to="/">Logo</Link></h2>
             <ul className="flex xl:gap-28 lg:gap-10 md:gap-6 ml-48 max-lg:hidden">
                 <li className="text-white link" style={{fontFamily:'Montserrat'}}><Link to="/oferta">Oferta edukacyjna</Link></li>
@@ -14,7 +19,22 @@ const NavBar = () => {
                 <li className="text-white link" style={{fontFamily:'Montserrat'}}><Link to="/kontakt">Kontakt</Link></li>
                 <li className="text-white link" style={{fontFamily:'Montserrat'}}><Link to="/partnerzy">Nasi partnerzy</Link></li>
             </ul>
-            <MenuIcon sx={{color:'white'}} className='invisible absolute right-20 max-lg:visible'/>
+            <MenuIcon sx={{color:'white'}} className='invisible absolute right-20 max-lg:visible' onClick={()=>setIsDrawerOpen(true)} />
+            <Drawer
+                anchor={'top'}
+                open={isDrawerOpen}
+                onClose={()=>setIsDrawerOpen(false)}
+                >
+            <div className="flex flex-col items-center gap-5 pb-10 pt-10 relative">
+                <Link style={{fontFamily:'Montserrat'}} to="/oferta">Oferta edukacyjna</Link>
+                <Link style={{fontFamily:'Montserrat'}} to="/dlakogo">Dla kogo?</Link>
+                <Link style={{fontFamily:'Montserrat'}} to="/onas">O nas</Link>
+                <Link style={{fontFamily:'Montserrat'}} to="/galeria">Galeria</Link>
+                <Link style={{fontFamily:'Montserrat'}} to="/kontakt">Kontakt</Link>
+                <Link style={{fontFamily:'Montserrat'}} to="/partnerzy">Nasi partnerzy</Link>
+                <CloseIcon className='absolute right-6 top-2' onClick={()=>setIsDrawerOpen(false)} />
+            </div>
+            </Drawer>
         </div>
     )
 }
