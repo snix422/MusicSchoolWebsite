@@ -9,20 +9,22 @@ import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
 import { motion } from "framer-motion";
 import img from '../../assets/images/logoNavBar/Original Logo.png'
+import logo from '../../assets/images/logoNavBar/Wordpress Transparent.png'
 
 const MainPage = () => {
   return (
     <div>
       <NavBar />
-      <div className="w-screen h-4/5 bg-yellow-900 flex flex-col justify-center gap-48 pb-20">
+      <div className="w-screen h-4/5 bg-black flex flex-col justify-center gap-28 pb-20">
         <motion.div
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
           className="flex flex-col items-center gap-12 mt-20"
         >
-          <img src={img} alt="obrazek" className="max-md:w-3/4 w-2/4 h-64 bg-gray-50 rounded"></img>
-          <p className="text-white w-3/5" style={{ fontFamily: "Montserrat" }}>
+          <img src={img} alt="obrazek" className="max-md:w-4/5 max-md:h-56 w-2/6 h-80 bg-gray-50 rounded max-sm:hidden"></img>
+          <img src={logo} alt="obrazek" className="hidden w-3/5 max-sm:flex" />
+          <p className="text-white w-3/5 text-4xl max-md:text-xl " style={{ fontFamily: "Montserrat" }}>
             Jesteśmy mobilną szkołą muzyczną w Twoim domu. Jeżeli czas jest dla
             Ciebie największą wartością, sprawdź naszą ofertę edukacyjną.
             Zobacz, jak możesz wspomóc rozwój Twojego dziecka z naszą pomocą.
