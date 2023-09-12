@@ -5,12 +5,13 @@ import { Drawer, Menu } from '@mui/material';
 import { useScroll } from 'framer-motion';
 import { useState } from 'react';
 import CloseIcon from '@mui/icons-material/Close';
+import logoFirmowe from '../../assets/images/logoNavBar/Original Logo.png'
 
 const NavBar = () => {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
     return (
-        <div className="w-screen h-16 bg-black relative flex justify-center items-center fixed" >
-            <h2 className="text-white absolute left-20" style={{fontFamily:'Montserrat'}}><Link to="/">Logo</Link></h2>
+        <div className="w-screen h-28 bg-black relative flex justify-center items-center fixed" >
+            <Link to="/"><img src={logoFirmowe} className='h-28 w-48 absolute left-4 top-0' alt='logo'></img></Link>
             <ul className="flex xl:gap-28 lg:gap-10 md:gap-6 ml-48 max-lg:hidden">
                 <li className="text-white link" style={{fontFamily:'Montserrat'}}><Link to="/oferta">Oferta edukacyjna</Link></li>
                 <li className="text-white link" style={{fontFamily:'Montserrat'}}><Link to="/dlakogo">Dla kogo?</Link></li>

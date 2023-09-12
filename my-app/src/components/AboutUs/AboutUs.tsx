@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div className="min-h-screen">
       <NavBar />
-      <div className="w-screen h-screen bg-yellow-900 flex flex-col items-center gap-28 max-sm:justify-center max-sm:gap-10 xl:pt-48 lg:'pt-48 md:pt-48 sm:pt-48">
+      <div className="w-screen min-h-screen bg-yellow-900 flex flex-col items-center gap-28 pt-10 pb-10 max-sm:justify-center max-sm:gap-10 xl:pt-48 lg:'pt-48 md:pt-48 sm:pt-48">
         <motion.h2
           initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
