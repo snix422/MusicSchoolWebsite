@@ -43,6 +43,15 @@ const AboutUs = () => {
           lat współtworzę Letnie oraz Zimowe Warsztaty Dzieci Suzuki w
           Lutomiersku i Uniejowie. Pracuję także w Państowej Szkole Muzycznej I
           i II stopnia w Kutnie, jako pianista oraz akompaniator.
+          <br />
+          <br /> Do zespołu zapraszam wyłącznie profesjonalnych, kompetentnych
+          muzyków, uzdolnionych pedagogicznie. W tej kwestii jestem
+          bezkompromisowy - uważam, że droższa lekcja z doświadczonym
+          nauczycielem, szczególnie na początku, jest dużo bardziej wydajna, niż
+          nieco tańsza w wykonaniu praktykanta. Pasjonuje mnie tworzenie
+          procesów, przez co czas lekcji nie jest zagospodarowany przypadkowo.
+          Wyniki naszych uczniów są mierzalne, a proces nabywania kompetencji -
+          powtarzalny.
         </motion.p>
       </div>
       <Footer />

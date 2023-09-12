@@ -94,14 +94,18 @@ const MainPage = () => {
               id="panel1a-header"
             >
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Accordion 1
+                W jakich miastach działamy?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget.
+                Swoją przygodę rozpoczęliśmy w <b>Łodzi</b> i tutaj działamy
+                najaktywniej. Oczywiście dojeżdżamy również na odległe
+                peryferia. Jesteśmy w trakcie rozwijania projektu także w{" "}
+                <b>Warszawie</b>,<b>Wrocławiu</b> i <b>Gdańsku</b>, ale wciąż
+                planujemy poszerzać nasz teren działania. Prosimy o wiadomość,
+                jeśli są Państwo z innego regionu i byliby Państwo
+                zainteresowani współpracą.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -112,14 +116,19 @@ const MainPage = () => {
               id="panel1a-header"
             >
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Accordion 1
+                Moje dziecko marzy o grze na wiolonczeli, gitarze, innym
+                instrumencie, którego nie ma w ofercie
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget.
+                Bardzo prosimy o maila z wskazaniem konkretnego instrumentu.
+                Współpracując z bardzo wieloma instrumentalitami, z pewnością
+                pomożemy w doborze kompetentnego nauczyciela z potwierdzonymi
+                sukcesami, gdyż głęboko wierzymy, iż nie warto powierzać rozwoju
+                Państwa dziecka przypadkowym osobom. Nasz projekt ciągle się
+                rozwija - kolejne specjalności będą uruchamiane w najbliższym
+                czasie.
               </Typography>
             </AccordionDetails>
           </Accordion>
