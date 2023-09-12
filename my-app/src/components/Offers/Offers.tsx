@@ -10,7 +10,6 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { motion } from "framer-motion";
 
 const Offers = () => {
-
   return (
     <div className="min-h-screen">
       <NavBar />
@@ -22,7 +21,7 @@ const Offers = () => {
           className="text-white text-3xl max-sm:pb-28"
           style={{ fontFamily: "Montserrat" }}
         >
-          Nasza oferta edukacyjna:
+          Nasza oferta:
         </motion.h2>
         <motion.div
           initial={{ y: 100, opacity: 0 }}
@@ -180,8 +179,5 @@ const Offers = () => {
     </div>
   );
 };
-
-  
-
 
 export default Offers;
