@@ -24,9 +24,15 @@ const ForWhom = () => {
           style={{ fontFamily: "Montserrat" }}
         >
           Jeżeli czas z bliskimi jest dla Państwa największą wartością, jesteśmy
-          idealnym wyborem. Przywieziemy do Państwa domu spersonalizowaną ofertę
-          Szkoły Muzycznej, zarówno realizując podstawę programową, jak też
-          zgłębiając zainteresowania ucznia. <br />
+          idealnym wyborem. <br />
+          <br />
+          Przywieziemy do Państwa domu spersonalizowaną ofertę Szkoły Muzycznej,
+          zarówno realizując podstawę programową, jak też zgłębiając
+          zainteresowania ucznia. <br />
+          Podejmujemy się prowadzenia ucznia przez wymogi Szkół Państwowych I
+          oraz II stopnia, doprowadzając do artystycznej samodzielności oraz
+          zapewniając mu wiedzę na poziomie absolwenta Szkoły Muzycznej II
+          stopnia. <br />
           Dzielimy się naszą pasją do muzyki z dziećmi, dorosłymi oraz
           seniorami. Wspólnie poznajemy najpiękniejsze utwory klasyki, muzyki
           popularnej i filmowej. <br />
