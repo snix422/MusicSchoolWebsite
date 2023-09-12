@@ -6,12 +6,12 @@ const AboutUs = () => {
   return (
     <div className="min-h-screen">
       <NavBar />
-      <div className="w-screen min-h-screen bg-yellow-900 flex flex-col items-center gap-28 pt-10 pb-10 max-sm:justify-center max-sm:gap-10 xl:pt-48 lg:'pt-48 md:pt-48 sm:pt-48">
+      <div className="w-screen min-h-screen bg-black flex flex-col items-center gap-28 pt-10 pb-10 max-sm:justify-center max-sm:gap-10 xl:pt-48 lg:'pt-48 md:pt-48 sm:pt-48">
         <motion.h2
           initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
-          className="text-white text-3xl"
+          className="text-white text-4xl"
           style={{ fontFamily: "Montserrat" }}
         >
           O nas
@@ -20,10 +20,10 @@ const AboutUs = () => {
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
-          className="text-white text-lg w-3/5"
+          className="text-white max-md:text-lg w-3/5 text-xl"
           style={{ fontFamily: "Montserrat" }}
         >
-          Nazywam się Łuaksz Różyło, jestem pianistą, organistą, nauczycielem
+          Nazywam się Łukasz Różyło, jestem pianistą, organistą, nauczycielem
           oraz organizatorem i animatorem życia muzycznego. Grę na fortepianie
           rozpocząłem w wieku 6 lat. Ukończyłem z wyróżenieniem Salezjańską
           Ogólnokształcącą Szkołę Muzyczną w Lutomiersku, a następnie studia
