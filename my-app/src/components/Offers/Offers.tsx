@@ -173,6 +173,29 @@ const Offers = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
+          <Accordion className="w-3/5  max-md:w-4/5">
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                Śpiew
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                Oferujemy indywidualne lekcje śpiewu w różnej stylistyce oraz
+                emisji głosu: od klasycznej po muzykę pop. Pracując pod okiem
+                wykwalifikowanego wokalisty-pedagoga, uczeń nauczy się
+                kontrolować emisję głosu, uniknie typowych błędów, zdobędzie
+                niezbędną wiedzę do komfortowego i bezpiecznego dla zdrowia
+                śpiewania. Oferujemy także konsultacje przez egzaminami,
+                występami czy koncertami, jak również przygotowanie do egzaminów
+                wstępnych na kierunkach muzycznych i aktorskich.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
         </motion.div>
       </div>
       <Footer />
