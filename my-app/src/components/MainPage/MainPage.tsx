@@ -8,6 +8,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
 import { motion } from "framer-motion";
+import img from '../../assets/images/logoNavBar/Original Logo.png'
 
 const MainPage = () => {
   return (
@@ -20,7 +21,7 @@ const MainPage = () => {
           transition={{ delay: 0.5, duration: 1 }}
           className="flex flex-col items-center gap-12 mt-20"
         >
-          <div className="max-md:w-3/4 w-2/4 h-64 bg-gray-50 rounded"></div>
+          <img src={img} alt="obrazek" className="max-md:w-3/4 w-2/4 h-64 bg-gray-50 rounded"></img>
           <p className="text-white w-3/5" style={{ fontFamily: "Montserrat" }}>
             Jesteśmy mobilną szkołą muzyczną w Twoim domu. Jeżeli czas jest dla
             Ciebie największą wartością, sprawdź naszą ofertę edukacyjną.
