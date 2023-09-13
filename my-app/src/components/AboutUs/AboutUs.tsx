@@ -20,7 +20,7 @@ const AboutUs = () => {
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
-          className="text-white max-md:text-lg w-3/5 text-xl"
+          className="text-white max-md:text-lg w-3/5 text-justify text-xl"
           style={{ fontFamily: "Montserrat" }}
         >
           Nazywam się Łuaksz Różyło, jestem pianistą, organistą, nauczycielem

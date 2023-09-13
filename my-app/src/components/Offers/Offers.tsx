@@ -20,7 +20,7 @@ const Offers = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
           className="text-white text-3xl max-sm:pb-10 max-sm:pt-10 max-md:w-4/5"
-          style={{ fontFamily: "Montserrat", marginTop:'-50px' }}
+          style={{ fontFamily: "Montserrat", marginTop:'-80px' }}
         >
           Nasza oferta edukacyjna:
         </motion.h2>
@@ -29,6 +29,7 @@ const Offers = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
           className="w-screen flex flex-col items-center"
+          style={{minHeight:'50vh'}}
         >
           <Accordion className="w-3/5  max-md:w-4/5">
             <AccordionSummary

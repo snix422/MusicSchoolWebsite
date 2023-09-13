@@ -23,8 +23,8 @@ const MainPage = () => {
           className="flex flex-col items-center gap-12 mt-20"
         >
           <img src={img} alt="obrazek" className="max-md:w-4/5 max-md:h-56 w-2/6 h-80 bg-gray-50 rounded max-sm:hidden"></img>
-          <img src={logo} alt="obrazek" className="hidden w-3/5 max-sm:flex" />
-          <p className="text-white w-3/5 text-4xl max-md:text-xl " style={{ fontFamily: "Montserrat" }}>
+          <img src={logo} alt="obrazek" className="hidden w-3/5 max-sm:hidden" />
+          <p className="text-white w-3/5 text-justify text-4xl max-md:text-xl " style={{ fontFamily: "Montserrat" }}>
             Jesteśmy mobilną szkołą muzyczną w Twoim domu. Jeżeli czas jest dla
             Ciebie największą wartością, sprawdź naszą ofertę edukacyjną.
             Zobacz, jak możesz wspomóc rozwój Twojego dziecka z naszą pomocą.
