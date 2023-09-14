@@ -6,6 +6,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import { Alert } from "@mui/material";
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const [fullName, setFullName] = useState("");
@@ -30,14 +31,15 @@ const Contact = () => {
       setError("");
     }
 
-    /*emailjs.sendForm('service_bysdvel', 'template_z4h8j7g', form.current, '5E4w16biVWeMYXUDt')
+    emailjs.sendForm('service_nsd1h5g', 'template_coyfu19', form.current, '5E4w16biVWeMYXUDt')
           .then((result:any) => {
+            console.log(result)
               e.target.reset();
               setFullName('');
               setMail('');
               setMessage('')
           }, (error:any) => {
-          });*/
+          });
   };
 
   return (
