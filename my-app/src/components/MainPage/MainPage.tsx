@@ -116,7 +116,7 @@ const MainPage = () => {
                 Swoją przygodę rozpoczęliśmy w <b>Łodzi</b> i tutaj działamy
                 najaktywniej. Oczywiście dojeżdżamy również na odległe
                 peryferia. Jesteśmy w trakcie rozwijania projektu także w{" "}
-                <b>Warszawie</b>,<b>Wrocławiu</b> i <b>Gdańsku</b>, wciąż też
+                <b>Warszawie</b>, <b>Wrocławiu</b> i <b>Gdańsku</b>, wciąż też
                 planujemy poszerzać nasz obszar działania. Prosimy o wiadomość,
                 jeśli są Państwo z innego regionu i byliby Państwo
                 zainteresowani współpracą.
