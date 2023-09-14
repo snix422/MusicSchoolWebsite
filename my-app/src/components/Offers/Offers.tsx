@@ -19,7 +19,7 @@ const Offers = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
           className="text-white text-3xl max-sm:pb-10 max-sm:pt-10 max-md:w-4/5"
-          style={{ fontFamily: "Montserrat", marginTop:'-80px' }}
+          style={{ fontFamily: "Montserrat", marginTop: "-80px" }}
         >
           Nasza oferta:
         </motion.h2>
@@ -28,7 +28,7 @@ const Offers = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
           className="w-screen flex flex-col items-center"
-          style={{minHeight:'50vh'}}
+          style={{ minHeight: "50vh" }}
         >
           <Accordion className="w-3/5  max-md:w-4/5">
             <AccordionSummary
@@ -88,7 +88,7 @@ const Offers = () => {
               id="panel1a-header"
             >
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Teoria, kształcenie słuchu, solfeż
+                Teoria, kształcenie słuchu
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -106,52 +106,7 @@ const Offers = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion className="w-3/5  max-md:w-4/5">
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel1a-content"
-              id="panel1a-header"
-            >
-              <Typography style={{ fontFamily: "Montserrat" }}>
-                Organizacja koncetów
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
-                Nasz zespół posiada doświadczenie w organizowaniu wydarzeń
-                muzycznych: koncertów, popisów, warsztatów muzycznych dla dzieci
-                i młodzieży. Uczniowie zdobywają praktykę sceniczną, dzieląc się
-                swoimi interpretacjami. <br />
-                <br /> Wszystkie propozycje współpracy prosimy zamieszcać w
-                formularzu w zakładce Kontakt.
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion className="w-3/5  max-md:w-4/5">
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel1a-content"
-              id="panel1a-header"
-            >
-              <Typography style={{ fontFamily: "Montserrat" }}>
-                Organy (dla pianistów i nie tylko!)
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
-                Zapraszamy zarówno dzieci uczące się już wcześniej gry na
-                fortepianie, jak i nowe osoby. Podczas zajęć będzie okazja
-                poznać tajniki największego z instrumentów, usłyszeć zarówno
-                pełne brzmienie <i>pleno organowego</i>, jak też subtelnych,
-                fletowych głosów. Gra na klawiaturze nożnej (stopami) również
-                będzie interesującym doświadczeniem, podobnie, jak ,,zwiedzanie"
-                wnętrza instrumentu. Z racji specyfiki zajęć, odbywają się one w
-                zaprzyjaźnionych miejsach, posiadających taki instrument.
-                Oferujemy także kursy w zakresie gry liturgicznej,
-                akompaniamentu organowego oraz improwizacji.
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
+
           <Accordion className="w-3/5  max-md:w-4/5">
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
@@ -194,6 +149,78 @@ const Offers = () => {
                 śpiewania. Oferujemy także konsultacje przez egzaminami,
                 występami czy koncertami, jak również przygotowanie do egzaminów
                 wstępnych na kierunkach muzycznych i aktorskich.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion className="w-3/5  max-md:w-4/5">
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                Organy piszczałkowe
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                Zapraszamy zarówno dzieci uczące się już wcześniej gry na
+                fortepianie, jak i nowe osoby. Podczas zajęć będzie okazja
+                poznać tajniki największego z instrumentów, usłyszeć zarówno
+                pełne brzmienie <i>pleno organowego</i>, jak też subtelnych,
+                fletowych głosów. Gra na klawiaturze nożnej (stopami) również
+                będzie interesującym doświadczeniem, podobnie, jak ,,zwiedzanie"
+                wnętrza instrumentu. Z racji specyfiki zajęć, odbywają się one w
+                zaprzyjaźnionych miejsach, posiadających taki instrument.
+                Oferujemy także kursy w zakresie gry liturgicznej,
+                akompaniamentu organowego oraz improwizacji.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion className="w-3/5  max-md:w-4/5">
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                Organizacja koncetów
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                Nasz zespół posiada doświadczenie w organizowaniu wydarzeń
+                muzycznych: koncertów, popisów, warsztatów muzycznych dla dzieci
+                i młodzieży. Uczniowie zdobywają praktykę sceniczną, dzieląc się
+                swoimi interpretacjami. <br />
+                <br /> Wszystkie propozycje współpracy prosimy zamieszcać w
+                formularzu w zakładce Kontakt.
+                <br />
+                <br />
+                Zachęcamy także do śledzenia <b>wydarzeń koncertowych</b> przez
+                media społecznościowe.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion className="w-3/5  max-md:w-4/5">
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                Muzyka na Twoim ślubie
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                Zajmujemy się także muzyką podczas ślubów. Zapewniamy
+                dyplomowanego organistę oraz wokalistów, skrzypków, harfistów,
+                wiolonczelistów, jak również innych muzyków. Przygotowujemy
+                indywidualny projekt utworów muzycznych, podpowiadamy, na co
+                zwrócić uwagę, by uniknąć potencjanych problemów. Cechuje nas
+                wysoka jakosć, gdyż współpracują z nami jedynie zawodowi,
+                kompetentni muzycy.
               </Typography>
             </AccordionDetails>
           </Accordion>

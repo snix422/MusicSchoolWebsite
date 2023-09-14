@@ -116,10 +116,36 @@ const MainPage = () => {
                 Swoją przygodę rozpoczęliśmy w <b>Łodzi</b> i tutaj działamy
                 najaktywniej. Oczywiście dojeżdżamy również na odległe
                 peryferia. Jesteśmy w trakcie rozwijania projektu także w{" "}
-                <b>Warszawie</b>,<b>Wrocławiu</b> i <b>Gdańsku</b>, ale wciąż
-                planujemy poszerzać nasz teren działania. Prosimy o wiadomość,
+                <b>Warszawie</b>,<b>Wrocławiu</b> i <b>Gdańsku</b>, wciąż też
+                planujemy poszerzać nasz obszar działania. Prosimy o wiadomość,
                 jeśli są Państwo z innego regionu i byliby Państwo
                 zainteresowani współpracą.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion className="w-3/5">
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                Rola pierwszego nauczyciela
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                Dziecko ,,patrzy" na instrument niejako przez pryzmat
+                nauczyciela, jego osobowości, charakteru, jak również muzycznych
+                kompetencji. Wydobycie dźwięków kilku piosenek z pianina nie
+                jest niczym wyjątkowym, natomiast świadome prowadzenie
+                początkującego ucznia wymaga doświadczenia, procesu
+                dydaktycznego oraz miękkich kompetencji: poczucia humoru,
+                zbudowania relacji z dzieckiem, zrozumienia ,,jego świata" itd.
+                Nierzadko dostajemy uczniów ,,po" przypadkowych lekcjach, ze
+                złymi nawykami oraz źle ułożoną wiedzą. Naprawa tego procesu
+                jest możliwa, lecz dużo łatwiej jest prowadzić go od początku w
+                profesjonalny sposób.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -137,7 +163,7 @@ const MainPage = () => {
             <AccordionDetails>
               <Typography style={{ fontFamily: "Montserrat" }}>
                 Bardzo prosimy o maila z wskazaniem konkretnego instrumentu.
-                Współpracując z bardzo wieloma instrumentalitami, z pewnością
+                Współpracując z bardzo wieloma instrumentalistami, z pewnością
                 pomożemy w doborze kompetentnego nauczyciela z potwierdzonymi
                 sukcesami, gdyż głęboko wierzymy, iż nie warto powierzać rozwoju
                 Państwa dziecka przypadkowym osobom. Nasz projekt ciągle się
@@ -153,8 +179,8 @@ const MainPage = () => {
               id="panel1a-header"
             >
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Moje dziecko jest niestałe i obawiam się, że moje dziecko
-                zrezygnuje po kilku lekcjach...
+                Moje dziecko jest niestałe i obawiam się utraty motywacji po
+                kilku lekcjach...
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -164,7 +190,52 @@ const MainPage = () => {
                 pewnym czasie pojawiają się trudności i ,,dołki". Pokonywanie
                 tych przeszkód uczy wytrwałości, a zdobyte kompetencje
                 procentują w dalszym rozwoju - są przekładane na inne dziedziny
-                życia.
+                życia. Z naszego doświadczenia wynika, że wsparcie rodzica przy
+                ćwiczeniu oraz dobra atmosfera i kontakt z pedagogiem znacząco
+                redukują takie prawdopodobieństwo.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion className="w-3/5">
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                Jaki jest koszt zajęć?
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                Oferty cenowe przygotowujemy dla Państwa indywidualnie,
+                dopasowując liczbę godzin w tygodniu do Państwa możliwości
+                czasowych, potrzeb oraz percepcji i wieku dziecka. Na cenę ma
+                wpływ także odległość - czas dojazdu nauczycieli. Podczas
+                rozmowy jesteśmy w stanie doradzić najbardziej optymalną dla
+                Państwa liczbę lekcji, zasugerować wybór innego instruemntu bądź
+                dopasować zajęcia teoretycze. Zachęcamy do skorzystania z
+                pierwszej lekcji próbnej w cenie 300zł, oraz do przeczytania o
+                naszej <b>propozycji wartości</b> w zakładce Dla Kogo.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion className="w-3/5">
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                Możliwość lekcji w innym języku
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                Wszyscy nasi nauczyciele, jako aktywni zawodowo artyści,
+                prowadzą zajecia również w języku angielskim (nieodpłatnie).
+                Część Kadry posługuje się także językiem niemieckim i
+                francuskim.
               </Typography>
             </AccordionDetails>
           </Accordion>

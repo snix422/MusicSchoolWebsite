@@ -23,16 +23,32 @@ const ForWhom = () => {
           className="text-white text-lg w-3/5"
           style={{ fontFamily: "Montserrat" }}
         >
-          Jeżeli czas z bliskimi jest dla Państwa największą wartością, jesteśmy
-          idealnym wyborem. Przywieziemy do Państwa domu spersonalizowaną ofertę
-          Szkoły Muzycznej, zarówno realizując podstawę programową, jak też
-          zgłębiając zainteresowania ucznia. <br />
+          Jeżeli <b>czas z bliskimi jest dla Państwa największą wartością</b>,
+          jesteśmy idealnym wyborem. Przywieziemy do Państwa domu
+          spersonalizowaną ofertę Szkoły Muzycznej, zarówno realizując podstawę
+          programową, jak też zgłębiając zainteresowania ucznia. <br />
           Dzielimy się naszą pasją do muzyki z dziećmi, dorosłymi oraz
           seniorami. Wspólnie poznajemy najpiękniejsze utwory klasyki, muzyki
           popularnej i filmowej. <br />
           <br />
           Nasi klienci chwalą szczególnie świetny kontakt z dziećmi oraz
           elastyczność i dyspozycyjność.
+          <br />
+          <br />
+          Udało się nam przenieść na grunt pedagogiki muzycznej metodykę
+          zwinnego zarządzania projektami (Agile). Pracując w{" "}
+          <b>cyklach PDCA</b>, wcześnie reagujemy na potencjalne problemy. Uczeń
+          jest w zdalnym kontakcie z nauczycielem przez cały czas i w razie
+          wątpliwości podczas samodzielnego ćwiczenia zawsze może zwrócić się o
+          pomoc. Skutkuje to brakiem frustracji oraz wyraźnie szybszym rozwojem.
+          <br />
+          <br />
+          Jesteśmy przekonani, że dobrzy nauczyciele nie tylko ,,mają
+          podejście", lecz tworzą <b>wydajne procesy nauczania</b>. Lekcje z
+          nami mają przejrzysta strukturę, a czas ucznia wkorzystany jest
+          możliwie jak najwydajniej. Po każdej lekcji rodzic otrzymuje notatkę
+          oraz najbliższe cele, co integruje go z procesem nauki swojego
+          dziecka.
         </motion.p>
       </div>
       <Footer />
