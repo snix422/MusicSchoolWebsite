@@ -37,7 +37,7 @@ const MainPage = () => {
             style={{ fontFamily: "Montserrat" }}
           >
             Jesteśmy mobilną szkołą muzyczną w Twoim domu. Jeżeli czas jest dla
-            Ciebie największą wartością, sprawdź naszą ofertę edukacyjną.
+            Ciebie największą wartością, sprawdź naszą ofertę edukacyjną. <br />
             Zobacz, jak możesz wspomóc rozwój Twojego dziecka z naszą pomocą.
           </p>
         </motion.div>
@@ -72,13 +72,16 @@ const MainPage = () => {
                 className="text-justify"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Nasze doświadczenie pokazuje, że nie ma dzieci niezdolnych - są
-                tylko źle prowadzone. Przy merytoryczym prowadzeniu przez
-                profesjonalnego nauczyciela, każde dziecko jest w stanie
-                rozwinąć się w grze na instrumencie. Oczywiście, tempo rozwoju
-                dzieci jest różne, jednakże głównym czynnikiem wpłyawjącym na
-                postęp nauki jest zaangażowanie dziecka, systematyczność, a nie
-                szeroko rozumiany ,,talent".
+                Nasze doświadczenie pokazuje, że{" "}
+                <b>nie ma dzieci niezdolnych - są tylko źle prowadzone</b>. Przy
+                merytoryczym prowadzeniu przez profesjonalnego nauczyciela,
+                każde dziecko jest w stanie rozwinąć się w grze na instrumencie.
+                Oczywiście, tempo rozwoju dzieci jest różne, jednakże{" "}
+                <b>
+                  głównym czynnikiem wpłyawjącym na postęp nauki jest
+                  zaangażowanie dziecka, systematyczność, a nie szeroko
+                  rozumiany ,,talent".
+                </b>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -101,15 +104,16 @@ const MainPage = () => {
                 style={{ fontFamily: "Montserrat" }}
               >
                 Zysk z tej kompetencji można wykazać na kilku płaszczyznach. Po
-                pierwsze, gra na instrumencie jest bardzo dobrym stymulatorem
-                mózgu - integruje pracę obu półkuli, wspiera tworzenie nowych
-                połączeń neuronalnych. Dziecko uczy się planowania pracy
+                pierwsze,{" "}
+                <b>gra na instrumencie jest bardzo dobrym stymulatorem mózgu</b>{" "}
+                - integruje pracę obu półkuli, wspiera tworzenie nowych połączeń
+                neuronalnych. Dziecko uczy się <b>planowania pracy </b>
                 (przygotowania utworu) oraz ,,dowożenia wyników". Konfrontuje
-                się ze swoimi słabościami i uczy się je zwyciężać. Nabywa
-                pewność siebie, zwiększa sammoocenę, uczy się występować
-                publicznie oraz panować nad stresem. Wreszcie, wzbogaca się
-                wewnętrznie, kulturowo, uwrażliwia na piękno, poznaje utwory
-                kultury muzycznej różnych krajów i epok.
+                się ze swoimi słabościami i uczy się je zwyciężać.{" "}
+                <b>Nabywa pewności siebie</b>, zwiększa sammoocenę, uczy się
+                występować publicznie oraz panować nad stresem. Wreszcie,
+                wzbogaca się wewnętrznie, kulturowo, uwrażliwia na piękno,
+                poznaje utwory kultury muzycznej różnych krajów i epok.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -159,17 +163,24 @@ const MainPage = () => {
                 className="text-justify"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Dziecko ,,patrzy" na instrument niejako przez pryzmat
-                nauczyciela, jego osobowości, charakteru, jak również muzycznych
+                <b>
+                  Dziecko niejako ,,patrzy" na instrument przez pryzmat
+                  pierwszego nauczyciela
+                </b>
+                , jego osobowości, charakteru, jak również muzycznych
                 kompetencji. Wydobycie dźwięków kilku piosenek z pianina nie
                 jest niczym wyjątkowym, natomiast świadome prowadzenie
                 początkującego ucznia wymaga doświadczenia, procesu
                 dydaktycznego oraz miękkich kompetencji: poczucia humoru,
                 zbudowania relacji z dzieckiem, zrozumienia ,,jego świata" itd.
                 Nierzadko dostajemy uczniów ,,po" przypadkowych lekcjach, ze
-                złymi nawykami oraz źle ułożoną wiedzą. Naprawa tego procesu
-                jest możliwa, lecz dużo łatwiej jest prowadzić go od początku w
-                profesjonalny sposób.
+                złymi nawykami oraz niepoukładaną wiedzą. Naprawa tego procesu
+                jest możliwa, lecz{" "}
+                <b>
+                  znacznie łatwiej jest prowadzić go od początku w profesjonalny
+                  sposób
+                </b>
+                .
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -221,12 +232,13 @@ const MainPage = () => {
                 className="text-justify"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Tutaj (znowu) bardzo dużo zależy od rodzica. Nabywanie
+                Tutaj (znowu) <b>bardzo dużo zależy od rodzica</b>. Nabywanie
                 umiejętności muzycznych nigdy nie jest procesem liniowym - po
                 pewnym czasie pojawiają się trudności i ,,dołki". Pokonywanie
                 tych przeszkód uczy wytrwałości, a zdobyte kompetencje
                 procentują w dalszym rozwoju - są przekładane na inne dziedziny
-                życia.
+                życia. Takie zwycięstwa nad sobą dają naszym uczniom wiele
+                satysfakcji.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -267,7 +279,7 @@ const MainPage = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Możliwość lekcji w innym języku
+                Możliwość lekcji w języku obcym
               </Typography>
             </AccordionSummary>
             <AccordionDetails>

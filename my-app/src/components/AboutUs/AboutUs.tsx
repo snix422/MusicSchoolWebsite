@@ -23,7 +23,7 @@ const AboutUs = () => {
           className="text-white max-md:text-lg w-3/5 text-justify text-xl max-sm:text-center"
           style={{ fontFamily: "Montserrat" }}
         >
-          Nazywam się Łuaksz Różyło, jestem pianistą, organistą, nauczycielem
+          Nazywam się Łukasz Różyło, jestem pianistą, organistą, nauczycielem
           oraz organizatorem i animatorem życia muzycznego. Grę na fortepianie
           rozpocząłem w wieku 6 lat. Ukończyłem z wyróżenieniem Salezjańską
           Ogólnokształcącą Szkołę Muzyczną w Lutomiersku, a następnie studia

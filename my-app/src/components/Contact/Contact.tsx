@@ -110,7 +110,7 @@ const Contact = () => {
               className="text-center text-white pb-5 text-4xl"
               style={{ fontFamily: "Montserrat" }}
             >
-              Skontatuj się z Nami!
+              Skontatuj się z nami!
             </h2>
             <form
               ref={form}
