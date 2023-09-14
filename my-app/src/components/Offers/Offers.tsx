@@ -42,7 +42,7 @@ const Offers = () => {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography className="text-justify" style={{ fontFamily: "Montserrat" }}>
                 Oferujemy indywidualne lekcje gry na fortepianie / pianinie z
                 przyjazdem do Państwa domu. Odbywają się one w przyjaznej
                 atmosferze, pod okiem doświadczonego, kompetentnego pedagoga
@@ -69,7 +69,7 @@ const Offers = () => {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography className="text-justify" style={{ fontFamily: "Montserrat" }}>
                 Zapraszamy do indywidualnych zajęć z gry na skrzypcach w Państwa
                 domu pod kierunkiem doświadczonego nauczyciela -
                 instrumentalisty. Tworzymy także okazje do gry kameralnej
@@ -89,11 +89,11 @@ const Offers = () => {
               id="panel1a-header"
             >
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Teoria, kształcenie słuchu, solfeż
+                Teoria, kształcenie słuchu
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography className="text-justify" style={{ fontFamily: "Montserrat" }}>
                 Istotną pozycją w rozwoju ucznia jest wiedza teoretyczna. Pod
                 okiem nauczyciela-specjalisty zrozumiesz budowę utworu
                 muzycznego.<br></br> Nauczysz się rozpoznawać ze słuchu proste,
@@ -107,6 +107,7 @@ const Offers = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
+
           <Accordion className="w-3/5  max-md:w-4/5">
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
@@ -114,17 +115,18 @@ const Offers = () => {
               id="panel1a-header"
             >
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Organizacja koncetów
+                Klarnet
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
-                Nasz zespół posiada doświadczenie w organizowaniu wydarzeń
-                muzycznych: koncertów, popisów, warsztatów muzycznych dla dzieci
-                i młodzieży. Uczniowie zdobywają praktykę sceniczną, dzieląc się
-                swoimi interpretacjami. <br />
-                <br /> Wszystkie propozycje współpracy prosimy zamieszcać w
-                formularzu w zakładce Kontakt.
+              <Typography className="text-justify" style={{ fontFamily: "Montserrat" }}>
+                Zapraszamy na indywidualne lekcje gry na klarnecie pod okiem
+                uznanego, posiadającego liczne sukcesy artystyczne i dydaktyczne
+                nauczyciela. Podczas zajęć będzie rezalizowany zarówno pion
+                programowy Szkoły Muzycznej, jak również pozycje z literatury
+                filomwej czy popularnej. Uczeń będzie miał możliwość
+                uczestniczenia w warsztatach i spokaniach klarnetowych, by
+                wspólnie z innymi muzykami rozwijać swój talent.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -135,11 +137,34 @@ const Offers = () => {
               id="panel1a-header"
             >
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Organy (dla pianistów i nie tylko!)
+                Śpiew
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
+              <Typography className="text-justify" style={{ fontFamily: "Montserrat" }}>
+                Oferujemy indywidualne lekcje śpiewu w różnej stylistyce oraz
+                emisji głosu: od klasycznej po muzykę pop. Pracując pod okiem
+                wykwalifikowanego wokalisty-pedagoga, uczeń nauczy się
+                kontrolować emisję głosu, uniknie typowych błędów, zdobędzie
+                niezbędną wiedzę do komfortowego i bezpiecznego dla zdrowia
+                śpiewania. Oferujemy także konsultacje przez egzaminami,
+                występami czy koncertami, jak również przygotowanie do egzaminów
+                wstępnych na kierunkach muzycznych i aktorskich.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion className="w-3/5  max-md:w-4/5">
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
               <Typography style={{ fontFamily: "Montserrat" }}>
+                Organy piszczałkowe
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography className="text-justify" style={{ fontFamily: "Montserrat" }}>
                 Zapraszamy zarówno dzieci uczące się już wcześniej gry na
                 fortepianie, jak i nowe osoby. Podczas zajęć będzie okazja
                 poznać tajniki największego z instrumentów, usłyszeć zarówno
@@ -160,21 +185,47 @@ const Offers = () => {
               id="panel1a-header"
             >
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Klarnet
+                Organizacja koncetów
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
-                Zapraszamy na indywidualne lekcje gry na klarnecie pod okiem
-                uznanego, posiadającego liczne sukcesy artystyczne i dydaktyczne
-                nauczyciela. Podczas zajęć będzie rezalizowany zarówno pion
-                programowy Szkoły Muzycznej, jak również pozycje z literatury
-                filomwej czy popularnej. Uczeń będzie miał możliwość
-                uczestniczenia w warsztatach i spokaniach klarnetowych, by
-                wspólnie z innymi muzykami rozwijać swój talent.
+              <Typography className="text-justify" style={{ fontFamily: "Montserrat" }}>
+                Nasz zespół posiada doświadczenie w organizowaniu wydarzeń
+                muzycznych: koncertów, popisów, warsztatów muzycznych dla dzieci
+                i młodzieży. Uczniowie zdobywają praktykę sceniczną, dzieląc się
+                swoimi interpretacjami. <br />
+                <br /> Wszystkie propozycje współpracy prosimy zamieszcać w
+                formularzu w zakładce Kontakt.
+                <br />
+                <br />
+                Zachęcamy także do śledzenia <b>wydarzeń koncertowych</b> przez
+                media społecznościowe.
               </Typography>
             </AccordionDetails>
           </Accordion>
+          <Accordion className="w-3/5  max-md:w-4/5">
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                Muzyka na Twoim ślubie
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography className="text-justify" style={{ fontFamily: "Montserrat" }}>
+                Zajmujemy się także muzyką podczas ślubów. Zapewniamy
+                dyplomowanego organistę oraz wokalistów, skrzypków, harfistów,
+                wiolonczelistów, jak również innych muzyków. Przygotowujemy
+                indywidualny projekt utworów muzycznych, podpowiadamy, na co
+                zwrócić uwagę, by uniknąć potencjanych problemów. Cechuje nas
+                wysoka jakosć, gdyż współpracują z nami jedynie zawodowi,
+                kompetentni muzycy.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          
         </motion.div>
       </div>
       <Footer />

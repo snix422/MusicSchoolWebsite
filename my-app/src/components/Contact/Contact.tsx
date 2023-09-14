@@ -47,9 +47,9 @@ const Contact = () => {
             <motion.div  style={{minHeight:'78vh'}} className="w-screen bg-black flex flex-col items-center gap-36 max-sm:justify-center max-sm:gap-16 xl:pt-36 lg:'pt-28 md:pt-28 sm:pt-28 max-sm:pt-16 pb-10">
                 <motion.div initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{delay:0.5, duration:1}} className="flex items-center gap-36 max-lg:flex-col max-sm:gap-20">
                     
-                    <div className="flex flex-col justify-center gap-36 max-lg:flex-col max-sm:gap-20">
+                    <div className="flex flex-col justify-start items-center  gap-36 max-lg:flex-col max-sm:gap-20 pb-14">
                     <motion.h2 initial={{y:-100,opacity:0}} animate={{y:0,opacity:1}} transition={{delay:0.5, duration:1}} className="text-white text-4xl" style={{fontFamily:'Montserrat'}}>Kontakt</motion.h2>
-                    <div className="flex gap-28">
+                    <div className="flex gap-28 max-sm:flex-col">
                     <div className="flex flex-col gap-5">
                         <h2 className="text-white text-2xl" style={{fontFamily:'Montserrat'}}>Telefon</h2>
                         <div className="flex gap-5">
