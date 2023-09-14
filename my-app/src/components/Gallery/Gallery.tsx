@@ -16,7 +16,7 @@ import { Modal } from "@mui/material"
 import { useState } from "react"
 
 const Gallery = () => {
-    const photos = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img11,img12];
+    const photos = [img1,img2,img3,img4,img5,img8,img9,img11,img12];
     const [open, setOpen] = useState(false);
     const [currentImg, setCurrentImg] = useState<any>();
 
@@ -36,20 +36,11 @@ const Gallery = () => {
                 <motion.div initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{delay:0.5, duration:1}} className="w-4/5 max-md:w-screen flex flex-wrap justify-center gap-28 max-lg:flex-col max-lg:items-center">
                     {photos.map((photo:any)=>{
                         return(
-                            <img onClick={()=>handleOpen(photo)} src={photo} alt="galeria" className="lg:w-1/5 xl:w-1/3 h-80 bg-gray-100 rounded md:w-2/5 sm:w-4/5 max-sm:w-4/5" />
+                            <img onClick={()=>handleOpen(photo)} src={photo} alt="galeria" className="lg:w-1/5 xl:w-1/3 h-80 bg-gray-100 rounded md:w-2/5 sm:w-3/5 max-sm:w-4/5 max-sm:h-48 hover:scale-125 transition-all cursor-pointer" />
                         )
                     })}
                 </motion.div>
             </div>
-            <Modal
-                open={open}
-                onClose={handleClose}
-                aria-labelledby="parent-modal-title"
-                aria-describedby="parent-modal-description"
-                className="flex justify-center items-center"
-            >
-                <img src={currentImg} className="w-3/5 h-3/5"></img>
-        </Modal>
             <Footer />
         </div>
     )

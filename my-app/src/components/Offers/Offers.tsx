@@ -21,7 +21,7 @@ const Offers = () => {
           className="text-white text-3xl max-sm:pb-10 max-sm:pt-10 max-md:w-4/5"
           style={{ fontFamily: "Montserrat", marginTop: "-80px" }}
         >
-          Nasza oferta:
+          Nasza oferta edukacyjna:
         </motion.h2>
         <motion.div
           initial={{ y: 100, opacity: 0 }}
@@ -41,7 +41,10 @@ const Offers = () => {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Oferujemy indywidualne lekcje gry na fortepianie / pianinie z
                 przyjazdem do Państwa domu. Odbywają się one w przyjaznej
                 atmosferze, pod okiem doświadczonego, kompetentnego pedagoga
@@ -68,7 +71,10 @@ const Offers = () => {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Zapraszamy do indywidualnych zajęć z gry na skrzypcach w Państwa
                 domu pod kierunkiem doświadczonego nauczyciela -
                 instrumentalisty. Tworzymy także okazje do gry kameralnej
@@ -92,7 +98,10 @@ const Offers = () => {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Istotną pozycją w rozwoju ucznia jest wiedza teoretyczna. Pod
                 okiem nauczyciela-specjalisty zrozumiesz budowę utworu
                 muzycznego.<br></br> Nauczysz się rozpoznawać ze słuchu proste,
@@ -118,7 +127,10 @@ const Offers = () => {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Zapraszamy na indywidualne lekcje gry na klarnecie pod okiem
                 uznanego, posiadającego liczne sukcesy artystyczne i dydaktyczne
                 nauczyciela. Podczas zajęć będzie rezalizowany zarówno pion
@@ -140,7 +152,10 @@ const Offers = () => {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Oferujemy indywidualne lekcje śpiewu w różnej stylistyce oraz
                 emisji głosu: od klasycznej po muzykę pop. Pracując pod okiem
                 wykwalifikowanego wokalisty-pedagoga, uczeń nauczy się
@@ -163,7 +178,10 @@ const Offers = () => {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Zapraszamy zarówno dzieci uczące się już wcześniej gry na
                 fortepianie, jak i nowe osoby. Podczas zajęć będzie okazja
                 poznać tajniki największego z instrumentów, usłyszeć zarówno
@@ -188,7 +206,10 @@ const Offers = () => {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Nasz zespół posiada doświadczenie w organizowaniu wydarzeń
                 muzycznych: koncertów, popisów, warsztatów muzycznych dla dzieci
                 i młodzieży. Uczniowie zdobywają praktykę sceniczną, dzieląc się
@@ -213,7 +234,10 @@ const Offers = () => {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Zajmujemy się także muzyką podczas ślubów. Zapewniamy
                 dyplomowanego organistę oraz wokalistów, skrzypków, harfistów,
                 wiolonczelistów, jak również innych muzyków. Przygotowujemy

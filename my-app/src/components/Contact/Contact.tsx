@@ -53,7 +53,7 @@ const Contact = () => {
           transition={{ delay: 0.5, duration: 1 }}
           className="flex items-center gap-36 max-lg:flex-col max-sm:gap-20"
         >
-          <div className="flex flex-col justify-center gap-36 max-lg:flex-col max-sm:gap-20">
+          <div className="flex flex-col justify-start items-center  gap-36 max-lg:flex-col max-sm:gap-20 pb-14">
             <motion.h2
               initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -63,7 +63,7 @@ const Contact = () => {
             >
               Kontakt
             </motion.h2>
-            <div className="flex gap-28">
+            <div className="flex gap-28 max-sm:flex-col">
               <div className="flex flex-col gap-5">
                 <h2
                   className="text-white text-2xl"

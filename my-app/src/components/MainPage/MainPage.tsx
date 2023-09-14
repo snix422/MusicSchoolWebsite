@@ -25,8 +25,8 @@ const MainPage = () => {
           <img
             src={img}
             alt="obrazek"
-            className="max-md:w-4/5 max-md:h-56 w-2/6 h-80 bg-gray-50 rounded max-sm:hidden"
-          ></img>
+            className="max-md:w-4/5 max-md:h-56 w-2/6 h-80 max-sm:hidden"
+          />
           <img
             src={logo}
             alt="obrazek"
@@ -59,13 +59,19 @@ const MainPage = () => {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Nie wiem, czy moje dziecko ,,ma słuch" oraz czy nadaje się do
                 muzycznej edukacji?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Nasze doświadczenie pokazuje, że nie ma dzieci niezdolnych - są
                 tylko źle prowadzone. Przy merytoryczym prowadzeniu przez
                 profesjonalnego nauczyciela, każde dziecko jest w stanie
@@ -82,12 +88,18 @@ const MainPage = () => {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-left"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Po co mojemu dziecku umiejętność gry na instrumencie?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Zysk z tej kompetencji można wykazać na kilku płaszczyznach. Po
                 pierwsze, gra na instrumencie jest bardzo dobrym stymulatorem
                 mózgu - integruje pracę obu półkuli, wspiera tworzenie nowych
@@ -107,16 +119,22 @@ const MainPage = () => {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-left"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 W jakich miastach działamy?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Swoją przygodę rozpoczęliśmy w <b>Łodzi</b> i tutaj działamy
                 najaktywniej. Oczywiście dojeżdżamy również na odległe
                 peryferia. Jesteśmy w trakcie rozwijania projektu także w{" "}
-                <b>Warszawie</b>,<b>Wrocławiu</b> i <b>Gdańsku</b>, wciąż też
+                <b>Warszawie</b>, <b>Wrocławiu</b> i <b>Gdańsku</b>, wciąż też
                 planujemy poszerzać nasz obszar działania. Prosimy o wiadomość,
                 jeśli są Państwo z innego regionu i byliby Państwo
                 zainteresowani współpracą.
@@ -129,12 +147,18 @@ const MainPage = () => {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-left"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Rola pierwszego nauczyciela
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Dziecko ,,patrzy" na instrument niejako przez pryzmat
                 nauczyciela, jego osobowości, charakteru, jak również muzycznych
                 kompetencji. Wydobycie dźwięków kilku piosenek z pianina nie
@@ -155,20 +179,26 @@ const MainPage = () => {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Moje dziecko marzy o grze na wiolonczeli, gitarze, innym
                 instrumencie, którego nie ma w ofercie
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Bardzo prosimy o maila z wskazaniem konkretnego instrumentu.
                 Współpracując z bardzo wieloma instrumentalistami, z pewnością
                 pomożemy w doborze kompetentnego nauczyciela z potwierdzonymi
                 sukcesami, gdyż głęboko wierzymy, iż nie warto powierzać rozwoju
                 Państwa dziecka przypadkowym osobom. Nasz projekt ciągle się
                 rozwija - kolejne specjalności będą uruchamiane w najbliższym
-                czasie.
+                czasie..
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -178,21 +208,25 @@ const MainPage = () => {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography style={{ fontFamily: "Montserrat" }}>
-                Moje dziecko jest niestałe i obawiam się utraty motywacji po
-                kilku lekcjach...
+              <Typography
+                className="text-left"
+                style={{ fontFamily: "Montserrat" }}
+              >
+                Moje dziecko jest niestałe i obawiam się, że moje dziecko
+                zrezygnuje po kilku lekcjach...
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Tutaj (znowu) bardzo dużo zależy od rodzica. Nabywanie
                 umiejętności muzycznych nigdy nie jest procesem liniowym - po
                 pewnym czasie pojawiają się trudności i ,,dołki". Pokonywanie
                 tych przeszkód uczy wytrwałości, a zdobyte kompetencje
                 procentują w dalszym rozwoju - są przekładane na inne dziedziny
-                życia. Z naszego doświadczenia wynika, że wsparcie rodzica przy
-                ćwiczeniu oraz dobra atmosfera i kontakt z pedagogiem znacząco
-                redukują takie prawdopodobieństwo.
+                życia.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -207,7 +241,10 @@ const MainPage = () => {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Oferty cenowe przygotowujemy dla Państwa indywidualnie,
                 dopasowując liczbę godzin w tygodniu do Państwa możliwości
                 czasowych, potrzeb oraz percepcji i wieku dziecka. Na cenę ma
@@ -226,12 +263,18 @@ const MainPage = () => {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-left"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Możliwość lekcji w innym języku
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-justify"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 Wszyscy nasi nauczyciele, jako aktywni zawodowo artyści,
                 prowadzą zajecia również w języku angielskim (nieodpłatnie).
                 Część Kadry posługuje się także językiem niemieckim i
