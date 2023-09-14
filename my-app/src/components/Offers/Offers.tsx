@@ -13,13 +13,13 @@ const Offers = () => {
   return (
     <div className="min-h-screen">
       <NavBar />
-      <div className="w-screen min-h-screen bg-yellow-900 flex flex-col items-center gap-28 pb-10 max-sm:justify-center max-sm:gap-10 xl:pt-48 lg:pt-48 md:pt-28 sm:pt-28">
+      <div className="w-screen min-h-screen bg-black flex flex-col items-center gap-28 pb-10 pt-10 max-sm:justify-center max-sm:gap-2 xl:pt-48 lg:pt-48 md:pt-28 sm:pt-5 max-sm:pb-5">
         <motion.h2
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
-          className="text-white text-3xl max-sm:pb-28"
-          style={{ fontFamily: "Montserrat" }}
+          className="text-white text-3xl max-sm:pb-10 max-sm:pt-10 max-md:w-4/5"
+          style={{ fontFamily: "Montserrat", marginTop:'-80px' }}
         >
           Nasza oferta:
         </motion.h2>
@@ -28,6 +28,7 @@ const Offers = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
           className="w-screen flex flex-col items-center"
+          style={{minHeight:'50vh'}}
         >
           <Accordion className="w-3/5  max-md:w-4/5">
             <AccordionSummary

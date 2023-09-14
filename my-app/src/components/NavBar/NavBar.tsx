@@ -26,7 +26,7 @@ const NavBar = () => {
                 open={isDrawerOpen}
                 onClose={()=>setIsDrawerOpen(false)}
                 >
-            <div className="flex flex-col items-center gap-5 pb-10 pt-10 relative">
+            <div className="flex flex-col bg-black text-white items-center gap-5 pb-10 pt-10 relative">
                 <Link style={{fontFamily:'Montserrat'}} to="/oferta">Oferta edukacyjna</Link>
                 <Link style={{fontFamily:'Montserrat'}} to="/dlakogo">Dla kogo?</Link>
                 <Link style={{fontFamily:'Montserrat'}} to="/onas">O nas</Link>
