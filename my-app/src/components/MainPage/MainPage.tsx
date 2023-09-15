@@ -33,10 +33,10 @@ const MainPage = () => {
             className="hidden w-3/5 max-sm:hidden"
           />
           <p
-            className="text-white w-3/5 text-justify text-4xl max-md:text-xl "
-            style={{ fontFamily: "Montserrat" }}
+            className="text-white w-3/5 text-left text-left justify-self-auto text-4xl max-md:text-xl"
+            style={{ fontFamily: "Montserrat", hyphens: 'auto' }}
           >
-            Jesteśmy mobilną szkołą muzyczną w Twoim domu. Jeżeli czas jest dla
+           Jesteśmy mobilną szkołą muzyczną w Twoim domu. Jeżeli czas jest dla
             Ciebie największą wartością, sprawdź naszą ofertę edukacyjną. <br />
             Zobacz, jak możesz wspomóc rozwój Twojego dziecka z naszą pomocą.
           </p>
