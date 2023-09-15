@@ -66,7 +66,7 @@ const Contact = () => {
               Kontakt
             </motion.h2>
             <div className="flex gap-28 max-sm:flex-col">
-              <div className="flex flex-col gap-5">
+              <div className="flex flex-col items-center gap-5">
                 <h2
                   className="text-white text-2xl"
                   style={{ fontFamily: "Montserrat" }}
@@ -79,7 +79,7 @@ const Contact = () => {
                     className="text-white text-xl"
                     style={{ fontFamily: "Montserrat" }}
                   >
-                    Łódź ul.Piotrkowska 65
+                    725 729 621
                   </h3>
                 </div>
               </div>
@@ -96,7 +96,7 @@ const Contact = () => {
                     className="text-white text-xl"
                     style={{ fontFamily: "Montserrat" }}
                   >
-                    schoolmusic@gmail.com
+                    panodmuzykipl@gmail.com
                   </h3>
                 </div>
               </div>

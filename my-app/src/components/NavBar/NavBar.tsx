@@ -19,9 +19,7 @@ const NavBar = () => {
         ></img>
       </Link>
       <ul className="flex xl:gap-28 lg:gap-10 md:gap-6 ml-48 max-lg:hidden">
-        <li className="text-white link" style={{ fontFamily: "Montserrat" }}>
-          <Link to="/">Strona główna</Link>
-        </li>
+        
         <li className="text-white link" style={{ fontFamily: "Montserrat" }}>
           <Link to="/oferta">Oferta edukacyjna</Link>
         </li>

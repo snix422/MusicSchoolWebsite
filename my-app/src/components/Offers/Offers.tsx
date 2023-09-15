@@ -42,7 +42,7 @@ const Offers = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography
-                className="text-justify"
+                className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
                 Oferujemy indywidualne lekcje gry na fortepianie / pianinie z
@@ -72,7 +72,7 @@ const Offers = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography
-                className="text-justify"
+                className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
                 Zapraszamy do indywidualnych zajęć z gry na skrzypcach w Państwa
@@ -128,7 +128,7 @@ const Offers = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography
-                className="text-justify"
+                className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
                 Zapraszamy na indywidualne lekcje gry na klarnecie pod okiem
@@ -153,7 +153,7 @@ const Offers = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography
-                className="text-justify"
+                className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
                 Oferujemy indywidualne lekcje śpiewu w różnej stylistyce oraz
@@ -179,7 +179,7 @@ const Offers = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography
-                className="text-justify"
+                className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
                 Zapraszamy zarówno dzieci uczące się już wcześniej gry na
@@ -207,7 +207,7 @@ const Offers = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography
-                className="text-justify"
+                className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
                 Nasz zespół posiada doświadczenie w organizowaniu wydarzeń
@@ -235,7 +235,7 @@ const Offers = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography
-                className="text-justify"
+                className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
                 Zajmujemy się także muzyką podczas ślubów. Zapewniamy

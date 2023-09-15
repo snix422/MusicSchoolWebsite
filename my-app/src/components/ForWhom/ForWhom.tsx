@@ -20,7 +20,7 @@ const ForWhom = () => {
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
-          className="text-white text-lg w-3/5 text-justify"
+          className="text-white text-lg w-4/5 text-justify max-sm:text-center"
           style={{ fontFamily: "Montserrat" }}
         >
           Jeżeli <b>czas z bliskimi jest dla Państwa największą wartością</b>,

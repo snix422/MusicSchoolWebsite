@@ -25,7 +25,7 @@ const MainPage = () => {
           <img
             src={img}
             alt="obrazek"
-            className="max-md:w-4/5 max-md:h-56 w-2/6 h-80 max-sm:hidden"
+            className="max-md:w-4/5 max-md:h-56 w-2/6 h-80 max-lg:hidden"
           />
           <img
             src={logo}
@@ -33,7 +33,7 @@ const MainPage = () => {
             className="hidden w-3/5 max-sm:hidden"
           />
           <p
-            className="text-white w-3/5 text-left text-left justify-self-auto text-4xl max-md:text-xl"
+            className="text-white w-4/5 text-justify text-4xl max-md:text-xl max-sm:text-center"
             style={{ fontFamily: "Montserrat", hyphens: 'auto' }}
           >
            Jesteśmy mobilną szkołą muzyczną w Twoim domu. Jeżeli czas jest dla
@@ -60,7 +60,7 @@ const MainPage = () => {
               id="panel1a-header"
             >
               <Typography
-                className="text-justify"
+                className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
                 Nie wiem, czy moje dziecko ,,ma słuch" oraz czy nadaje się do
@@ -191,7 +191,7 @@ const MainPage = () => {
               id="panel1a-header"
             >
               <Typography
-                className="text-justify"
+                className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
                 Moje dziecko marzy o grze na wiolonczeli, gitarze, innym
