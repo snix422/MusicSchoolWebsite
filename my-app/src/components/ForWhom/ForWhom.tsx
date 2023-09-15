@@ -26,13 +26,17 @@ const ForWhom = () => {
           Jeżeli <b>czas z bliskimi jest dla Państwa największą wartością</b>,
           jesteśmy idealnym wyborem. Przywieziemy do Państwa domu
           spersonalizowaną ofertę Szkoły Muzycznej, zarówno realizując podstawę
-          programową, jak też zgłębiając zainteresowania ucznia. <br />
+          programową, jak też zgłębiając indywidualne zainteresowania każdego
+          ucznia. <br />
+          <br />
           Dzielimy się naszą pasją do muzyki z dziećmi, dorosłymi oraz
           seniorami. Wspólnie poznajemy najpiękniejsze utwory klasyki, muzyki
           popularnej i filmowej. <br />
           <br />
           Nasi klienci chwalą szczególnie świetny kontakt z dziećmi oraz
-          elastyczność i dyspozycyjność.
+          elastyczność i dyspozycyjność. Uczniowie mogą w każdym momencie
+          nawiązać kontakt z nauczycielem, napotykając trudności podczas
+          ćwiczeń.
           <br />
           <br />
           Udało się nam przenieść na grunt pedagogiki muzycznej metodykę

@@ -19,7 +19,6 @@ const NavBar = () => {
         ></img>
       </Link>
       <ul className="flex xl:gap-28 lg:gap-10 md:gap-6 ml-48 max-lg:hidden">
-        
         <li className="text-white link" style={{ fontFamily: "Montserrat" }}>
           <Link to="/oferta">Oferta edukacyjna</Link>
         </li>
@@ -35,9 +34,9 @@ const NavBar = () => {
         <li className="text-white link" style={{ fontFamily: "Montserrat" }}>
           <Link to="/kontakt">Kontakt</Link>
         </li>
-        <li className="text-white link" style={{ fontFamily: "Montserrat" }}>
+        {/* <li className="text-white link" style={{ fontFamily: "Montserrat" }}>
           <Link to="/partnerzy">Nasi partnerzy</Link>
-        </li>
+        </li> */}
       </ul>
       <MenuIcon
         sx={{ color: "white" }}
@@ -68,9 +67,9 @@ const NavBar = () => {
           <Link style={{ fontFamily: "Montserrat" }} to="/kontakt">
             Kontakt
           </Link>
-          <Link style={{ fontFamily: "Montserrat" }} to="/partnerzy">
+          {/* <Link style={{ fontFamily: "Montserrat" }} to="/partnerzy">
             Nasi partnerzy
-          </Link>
+          </Link> */}
           <CloseIcon
             className="absolute right-6 top-2"
             onClick={() => setIsDrawerOpen(false)}
