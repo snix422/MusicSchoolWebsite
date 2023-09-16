@@ -10,6 +10,7 @@ import Footer from "../Footer/Footer";
 import { motion } from "framer-motion";
 import img from "../../assets/images/logoNavBar/Original Logo.png";
 import logo from "../../assets/images/logoNavBar/Wordpress Transparent.png";
+import ScrollToTop from "react-scroll-to-top";
 
 const MainPage = () => {
   return (

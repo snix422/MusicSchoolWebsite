@@ -8,6 +8,8 @@ import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { motion } from "framer-motion";
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import ScrollToTop from 'react-scroll-to-top';
 
 const Offers = () => {
   return (
@@ -250,6 +252,8 @@ const Offers = () => {
           </Accordion>
         </motion.div>
       </div>
+      <ScrollToTop smooth top={100} component={<KeyboardArrowUpIcon />} color="blue" height="20" >
+    </ScrollToTop>
       <Footer />
     </div>
   );

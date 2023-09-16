@@ -11,6 +11,8 @@ import Contact from './components/Contact/Contact';
 import OurPartners from './components/OurPartners/OurPartners';
 import Offers from './components/Offers/Offers';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import ScrollToTop from 'react-scroll-to-top';
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
             <Route path='partnerzy' element={<OurPartners />} />
         </Routes>
       </BrowserRouter>
+      <ScrollToTop smooth={true} top={500} component={<KeyboardArrowUpIcon />} color="blue" height="20" >
+    </ScrollToTop>
     </div>
   );
 }

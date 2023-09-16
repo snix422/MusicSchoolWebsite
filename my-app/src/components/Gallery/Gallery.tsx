@@ -53,7 +53,7 @@ const Gallery = () => {
                 onClick={() => handleOpen(photo)}
                 src={photo}
                 alt="galeria"
-                className="lg:w-1/5 xl:w-1/3 h-80 bg-gray-100 rounded md:w-2/5 sm:w-3/5 max-sm:w-4/5 max-sm:h-48 hover:scale-125 transition-all cursor-pointer"
+                className="lg:w-1/5 xl:w-1/3 h-80 bg-gray-100 rounded md:w-2/5 sm:w-3/5 max-sm:w-4/5 max-sm:h-48 hover:scale-125 transition-all cursor-pointer duration-700"
               />
             );
           })}
