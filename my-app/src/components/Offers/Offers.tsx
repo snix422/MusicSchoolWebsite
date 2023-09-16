@@ -49,16 +49,16 @@ const Offers = () => {
               >
                 Oferujemy indywidualne lekcje gry na fortepianie / pianinie z
                 przyjazdem do Państwa domu. Odbywają się one w przyjaznej
-                atmosferze, pod okiem doświadczonego, kompetentnego pedagoga
-                (mgr fortepianu). Realizujemy program szkół muzycznych,
-                włączając do niego również utwory muzyki filmowej i popularnej.
-                Nasi uczniowie odnoszą sukcesy na lokalnych i ogólnopolskich
-                konkursach muzycznych. Zapraszamy także uczniów Szkół
-                Muzycznych, potrzebujących korepetycji, lekcji uzupełniających
-                bądź doraźnych konsultacji. Nasi pedagodzy są przygotowani, by
-                pomóc w takiej sytuacji, opracować bądź skorygować plan
-                ćwiczenia, projektowo przygotować ucznia do nadchodzącego
-                egzaminu.
+                atmosferze, pod kierunkiem kompetentnego pedagoga (mgr
+                fortepianu). Realizujemy więc program szkół muzycznych,
+                włączając do niego również utwory muzyki filmowej, jak też
+                popularnej. Nasi uczniowie odnoszą sukcesy na lokalnych oraz
+                ogólnopolskich konkursach muzycznych. Zapraszamy także uczniów
+                Szkół Muzycznych, potrzebujących korepetycji, lekcji
+                uzupełniających bądź doraźnych konsultacji. Nasi pedagodzy są
+                przygotowani, by pomóc w skomplikowanej sytuacji, opracować bądź
+                skorygować plan ćwiczenia, projektowo przygotować ucznia do
+                nadchodzącego egzaminu.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -106,14 +106,15 @@ const Offers = () => {
               >
                 Istotną pozycją w rozwoju ucznia jest wiedza teoretyczna. Pod
                 okiem nauczyciela-specjalisty zrozumiesz budowę utworu
-                muzycznego.<br></br> Nauczysz się rozpoznawać ze słuchu proste,
-                a później bardziej złożone struktury muzyczne. <br></br>
+                muzycznego. Nauczysz się rozpoznawać ze słuchu proste, a później
+                bardziej złożone struktury muzyczne. <br></br>
+                <br></br>
                 Oferujemy zarówno kształcenie w oparciu o program nauczania
                 przedmiotów teoretycznych, jak również{" "}
                 <strong>
-                  korepetycje z kształcenia słuchu i teorii muzyki
+                  korepetycje z kształcenia słuchu oraz teorii muzyki
                 </strong>{" "}
-                przez ważnymi egzaminami.
+                przez egzaminami.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -244,9 +245,10 @@ const Offers = () => {
                 dyplomowanego organistę oraz wokalistów, skrzypków, harfistów,
                 wiolonczelistów, jak również innych muzyków. Przygotowujemy
                 indywidualny projekt utworów muzycznych, podpowiadamy, na co
-                zwrócić uwagę, by uniknąć potencjanych problemów. Cechuje nas
-                wysoka jakosć, gdyż współpracują z nami jedynie zawodowi,
-                kompetentni muzycy.
+                zwrócić uwagę, by uniknąć potencjanych problemów. <br />
+                <br />
+                Cechuje nas wysoka jakosć, gdyż współpracują z nami jedynie
+                zawodowi, odnoszący sukcesy kompetentni muzycy.
               </Typography>
             </AccordionDetails>
           </Accordion>
