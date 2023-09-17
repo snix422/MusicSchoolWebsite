@@ -31,7 +31,7 @@ const Contact = () => {
       setError("");
     }
 
-    emailjs.sendForm('service_nsd1h5g', 'template_coyfu19', form.current, '5E4w16biVWeMYXUDt')
+    emailjs.sendForm('service_xovluzh', 'template_coyfu19', form.current, '5E4w16biVWeMYXUDt')
           .then((result:any) => {
             console.log(result)
               e.target.reset();
