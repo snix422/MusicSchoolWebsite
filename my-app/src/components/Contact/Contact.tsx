@@ -7,6 +7,8 @@ import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import { Alert } from "@mui/material";
 import emailjs from '@emailjs/browser'
+import ScrollToTop from "react-scroll-to-top";
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 const Contact = () => {
   const [fullName, setFullName] = useState("");
@@ -155,6 +157,8 @@ const Contact = () => {
           </motion.div>
         </motion.div>
       </motion.div>
+      <ScrollToTop smooth top={100} component={<KeyboardArrowUpIcon />} color="blue" height="20" style={{marginBottom:'30px'}} >
+    </ScrollToTop>
       <Footer />
     </div>
   );

@@ -254,7 +254,7 @@ const Offers = () => {
           </Accordion>
         </motion.div>
       </div>
-      <ScrollToTop smooth top={100} component={<KeyboardArrowUpIcon />} color="blue" height="20" >
+      <ScrollToTop smooth top={100} component={<KeyboardArrowUpIcon />} color="blue" height="20" style={{marginBottom:'40px'}} >
     </ScrollToTop>
       <Footer />
     </div>
