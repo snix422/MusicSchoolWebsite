@@ -119,7 +119,7 @@ const Contact = () => {
             className="flex flex-col gap-1"
           >
             <h2
-              className="text-center text-white pb-5 text-4xl"
+              className="text-center text-white pb-5 text-4xl max-sm:text-2xl"
               style={{ fontFamily: "Montserrat" }}
             >
               Skontatuj się z nami!
