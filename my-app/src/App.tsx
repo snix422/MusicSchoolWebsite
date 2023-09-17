@@ -29,8 +29,6 @@ function App() {
             <Route path='partnerzy' element={<OurPartners />} />
         </Routes>
       </BrowserRouter>
-      <ScrollToTop smooth={true} top={500} component={<KeyboardArrowUpIcon />} color="blue" height="20" >
-    </ScrollToTop>
     </div>
   );
 }
