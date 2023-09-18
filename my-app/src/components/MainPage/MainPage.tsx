@@ -205,7 +205,7 @@ const MainPage = () => {
                 className="text-justify"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Bardzo prosimy o maila z wskazaniem konkretnego instrumentu.
+                Bardzo prosimy o maila ze wskazaniem konkretnego instrumentu.
                 Współpracując z bardzo wieloma instrumentalistami, z pewnością
                 pomożemy w doborze kompetentnego nauczyciela z potwierdzonymi
                 sukcesami, gdyż głęboko wierzymy, iż nie warto powierzać rozwoju

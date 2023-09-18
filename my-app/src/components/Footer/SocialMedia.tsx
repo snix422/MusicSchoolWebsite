@@ -22,7 +22,7 @@ const SocialMedia = () => {
           ></path>
         </svg>
       </Link>
-      <Link to="https://www.youtube.com/@Panodmuzykipl">
+      <Link to="https://www.youtube.com/@Panodmuzykipl" target="blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
