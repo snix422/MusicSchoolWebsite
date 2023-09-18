@@ -106,7 +106,7 @@ const Contact = () => {
                     className="text-white text-xl"
                     style={{ fontFamily: "Montserrat" }}
                   >
-                    panodmuzykipl@gmail.com
+                    kontakt@panodmuzyki.com.pl
                   </h3>
                 </div>
               </div>
