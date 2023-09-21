@@ -114,7 +114,7 @@ const Offers = () => {
                 <strong>
                   korepetycje z kształcenia słuchu oraz teorii muzyki
                 </strong>{" "}
-                przez egzaminami.
+                przed egzaminami.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -138,7 +138,7 @@ const Offers = () => {
                 uznanego, posiadającego liczne sukcesy artystyczne i dydaktyczne
                 nauczyciela. Podczas zajęć będzie rezalizowany zarówno pion
                 programowy Szkoły Muzycznej, jak również pozycje z literatury
-                filomwej czy popularnej. Uczeń będzie miał możliwość
+                filmowej czy popularnej. Uczeń będzie miał możliwość
                 uczestniczenia w warsztatach i spokaniach klarnetowych, by
                 wspólnie z innymi muzykami rozwijać swój talent.
               </Typography>

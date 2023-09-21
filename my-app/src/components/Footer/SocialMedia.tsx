@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 const SocialMedia = () => {
   return (
     <div className="flex gap-5 xl:absolute xl:right-72 lg:absolute lg:right-72">
-      <Link to="/">
+      <Link
+        to="https://www.facebook.com/people/Pan-od-Muzyki/61551393304760/"
+        target="blank"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"

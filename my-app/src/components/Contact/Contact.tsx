@@ -89,7 +89,7 @@ const Contact = () => {
                     className="text-white text-xl"
                     style={{ fontFamily: "Montserrat" }}
                   >
-                    725 729 621
+                    698 873 023
                   </h3>
                 </div>
               </div>
