@@ -1,6 +1,5 @@
 import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
-import BusinessIcon from "@mui/icons-material/Business";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
 import { motion } from "framer-motion";
@@ -155,6 +154,17 @@ const Contact = () => {
               ></textarea>
               <button
                 type="submit"
+                onClick={() => {
+                  if (
+                    fullName.length !== 0 &&
+                    mail.length !== 0 &&
+                    message.length !== 0
+                  ) {
+                    alert(
+                      "Dziękujemy za wiadomość. Skontaktujemy się niezwłocznie!"
+                    );
+                  }
+                }}
                 className="w-full max-md:w-3/4 text-white bg-yellow-600 rounded font-bold pt-1 pb-1"
                 style={{ fontFamily: "Montserrat" }}
               >
