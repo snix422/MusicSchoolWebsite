@@ -40,7 +40,7 @@ const MainPage = () => {
             Jesteśmy mobilną szkołą muzyczną w Twoim domu. Jeżeli czas z
             bliskimi jest dla Ciebie największą wartością, sprawdź naszą ofertę
             edukacyjną. Zobacz, jak możesz wspomóc rozwój Twojego dziecka z
-            naszą pomocą.
+            naszą pomocą!
           </p>
         </motion.div>
         <motion.div

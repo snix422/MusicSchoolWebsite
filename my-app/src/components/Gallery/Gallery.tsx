@@ -9,7 +9,7 @@ import img5 from "../../assets/images/gallery/5.jpg";
 import img6 from "../../assets/images/gallery/6.jpg";
 import img7 from "../../assets/images/gallery/7.jpg";
 import img8 from "../../assets/images/gallery/8.jpg";
-import img9 from "../../assets/images/gallery/9.jpg";
+import img9 from "../../assets/images/gallery/10.jpg";
 import img11 from "../../assets/images/gallery/11.jpg";
 import img12 from "../../assets/images/gallery/12.jpeg";
 import { Modal } from "@mui/material";
