@@ -65,8 +65,8 @@ const MainPage = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Nie wiem, czy moje dziecko ,,ma słuch" oraz czy nadaje się do
-                muzycznej edukacji?
+                <b>Nie wiem, czy moje dziecko ,,ma słuch" oraz czy nadaje się do
+                muzycznej edukacji?</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -97,7 +97,7 @@ const MainPage = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Po co mojemu dziecku umiejętność gry na instrumencie?
+                <b>Po co mojemu dziecku umiejętność gry na instrumencie?</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -129,7 +129,7 @@ const MainPage = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                W jakich miastach działamy?
+                <b>W jakich miastach działamy?</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -157,7 +157,7 @@ const MainPage = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Rola pierwszego nauczyciela
+                <b>Rola pierwszego nauczyciela</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -196,8 +196,8 @@ const MainPage = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Moje dziecko marzy o grze na wiolonczeli, gitarze, innym
-                instrumencie, którego nie ma w ofercie
+                <b>Moje dziecko marzy o grze na wiolonczeli, gitarze, innym
+                instrumencie, którego nie ma w ofercie</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -225,8 +225,8 @@ const MainPage = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Moje dziecko jest niestałe i obawiam się, że moje dziecko
-                zrezygnuje po kilku lekcjach...
+                <b>Moje dziecko jest niestałe i obawiam się, że moje dziecko
+                zrezygnuje po kilku lekcjach...</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -250,8 +250,10 @@ const MainPage = () => {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography style={{ fontFamily: "Montserrat" }}>
-                Jaki jest koszt zajęć?
+              <Typography 
+              className="text-left"
+              style={{ fontFamily: "Montserrat" }}>
+                <b>Jaki jest koszt zajęć?</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -281,7 +283,7 @@ const MainPage = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Możliwość lekcji w języku obcym
+                <b>Możliwość lekcji w języku obcym</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>

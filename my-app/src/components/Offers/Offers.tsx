@@ -39,7 +39,7 @@ const Offers = () => {
               id="panel1a-header"
             >
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Fortepian (pianino)
+                <b>Fortepian (pianino)</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -47,18 +47,20 @@ const Offers = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Oferujemy indywidualne lekcje gry na fortepianie / pianinie z
-                przyjazdem do Państwa domu. Odbywają się one w przyjaznej
+                Oferujemy indywidualne 
+            <strong> lekcje gry na fortepianie / pianinie z
+                przyjazdem do Państwa domu</strong>
+          . Odbywają się one w przyjaznej
                 atmosferze, pod kierunkiem kompetentnego pedagoga (mgr
-                fortepianu). Realizujemy więc program szkół muzycznych,
+                fortepianu). <b>Realizujemy program szkół muzycznych</b>,
                 włączając do niego również utwory muzyki filmowej, jak też
-                popularnej. Nasi uczniowie odnoszą sukcesy na lokalnych oraz
-                ogólnopolskich konkursach muzycznych. Zapraszamy także uczniów
+                popularnej. Nasi uczniowie <b>odnoszą sukcesy na lokalnych oraz
+                ogólnopolskich konkursach muzycznych</b>. Zapraszamy także uczniów
                 Szkół Muzycznych, potrzebujących korepetycji, lekcji
                 uzupełniających bądź doraźnych konsultacji. Nasi pedagodzy są
-                przygotowani, by pomóc w skomplikowanej sytuacji, opracować bądź
-                skorygować plan ćwiczenia, projektowo przygotować ucznia do
-                nadchodzącego egzaminu.
+                przygotowani, by <b>pomóc w skomplikowanej sytuacji, opracować bądź
+                skorygować plan ćwiczenia</b>, projektowo <b>przygotować ucznia do
+                nadchodzącego egzaminu</b>.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -69,7 +71,7 @@ const Offers = () => {
               id="panel1a-header"
             >
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Skrzypce
+                <b>Skrzypce</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -77,15 +79,15 @@ const Offers = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Zapraszamy do indywidualnych zajęć z gry na skrzypcach w Państwa
-                domu pod kierunkiem doświadczonego nauczyciela -
-                instrumentalisty. Tworzymy także okazje do gry kameralnej
-                (zespołowej), zwłaszcza podczas corocznych Wartsztów muzycznych.
-                Zapraszamy także uczniów Szkół Muzycznych, potrzebujących
-                korepetycji, lekcji uzupełniających bądź doraźnych konsultacji.
+                Zapraszamy do <b>indywidualnych zajęć z gry na skrzypcach w Państwa
+                domu</b> pod kierunkiem doświadczonego nauczyciela -
+                instrumentalisty. Tworzymy także <b>okazje do gry kameralnej
+                (zespołowej), zwłaszcza podczas corocznych Warsztatów muzycznych</b>.
+                Zapraszamy także uczniów Państwowych Szkół Muzycznych, potrzebujących
+                <b> korepetycji, lekcji uzupełniających bądź doraźnych konsultacji</b>.
                 Nasi pedagodzy są przygotowani, by pomóc w takiej sytuacji,
-                opracować bądź skorygować plan ćwiczenia, projektowo przygotować
-                ucznia do nadchodzącego egzaminu.
+                opracować bądź skorygować plan ćwiczenia, projektowo <b>przygotować
+                ucznia do nadchodzącego egzaminu</b>.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -96,7 +98,7 @@ const Offers = () => {
               id="panel1a-header"
             >
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Teoria, kształcenie słuchu
+                <b>Teoria, kształcenie słuchu</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -104,15 +106,15 @@ const Offers = () => {
                 className="text-justify"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Istotną pozycją w rozwoju ucznia jest wiedza teoretyczna. Pod
+                Istotną pozycją w rozwoju ucznia jest <b>wiedza teoretyczna</b>. Pod
                 okiem nauczyciela-specjalisty zrozumiesz budowę utworu
-                muzycznego. Nauczysz się rozpoznawać ze słuchu proste, a później
+                muzycznego. Nauczysz się <b>rozpoznawać ze słuchu</b> proste, a później
                 bardziej złożone struktury muzyczne. <br></br>
                 <br></br>
                 Oferujemy zarówno kształcenie w oparciu o program nauczania
                 przedmiotów teoretycznych, jak również{" "}
                 <strong>
-                  korepetycje z kształcenia słuchu oraz teorii muzyki
+                  <b>korepetycje z kształcenia słuchu oraz teorii muzyki</b>
                 </strong>{" "}
                 przed egzaminami.
               </Typography>
@@ -126,7 +128,7 @@ const Offers = () => {
               id="panel1a-header"
             >
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Klarnet
+                <b>Klarnet</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -134,12 +136,12 @@ const Offers = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Zapraszamy na indywidualne lekcje gry na klarnecie pod okiem
+                Zapraszamy na <b>indywidualne lekcje gry na klarnecie</b> pod okiem
                 uznanego, posiadającego liczne sukcesy artystyczne i dydaktyczne
-                nauczyciela. Podczas zajęć będzie rezalizowany zarówno pion
-                programowy Szkoły Muzycznej, jak również pozycje z literatury
-                filmowej czy popularnej. Uczeń będzie miał możliwość
-                uczestniczenia w warsztatach i spokaniach klarnetowych, by
+                nauczyciela. Podczas zajęć będzie rezalizowany zarówno <b>pion
+                programowy Szkoły Muzycznej</b>, jak również pozycje z <b>literatury
+                filmowej czy popularnej</b>. Uczeń będzie miał możliwość
+                <b>uczestniczenia w warsztatach i spokaniach klarnetowych</b>, by
                 wspólnie z innymi muzykami rozwijać swój talent.
               </Typography>
             </AccordionDetails>
@@ -151,7 +153,7 @@ const Offers = () => {
               id="panel1a-header"
             >
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Śpiew
+                <b>Śpiew</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -159,13 +161,12 @@ const Offers = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Oferujemy indywidualne lekcje śpiewu w różnej stylistyce oraz
-                emisji głosu: od klasycznej po muzykę pop. Pracując pod okiem
-                wykwalifikowanego wokalisty-pedagoga, uczeń nauczy się
-                kontrolować emisję głosu, uniknie typowych błędów, zdobędzie
-                niezbędną wiedzę do komfortowego i bezpiecznego dla zdrowia
-                śpiewania. Oferujemy także konsultacje przez egzaminami,
-                występami czy koncertami, jak również przygotowanie do egzaminów
+                Oferujemy <b>indywidualne lekcje śpiewu</b> w różnej stylistyce oraz
+                emisji głosu: <b>od klasycznej po muzykę pop</b>. Pracując pod okiem
+                wykwalifikowanego wokalisty-pedagoga, uczeń <b>uniknie typowych błędów</b>, zdobędzie
+                niezbędną wiedzę do komfortowego i <b>bezpiecznego dla zdrowia
+                śpiewania</b>. Oferujemy także <b>konsultacje przez koncertami</b>,
+                występami czy egzaminami, jak również przygotowanie do egzaminów
                 wstępnych na kierunkach muzycznych i aktorskich.
               </Typography>
             </AccordionDetails>
@@ -177,7 +178,7 @@ const Offers = () => {
               id="panel1a-header"
             >
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Organy piszczałkowe
+                <b>Organy piszczałkowe</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -185,15 +186,15 @@ const Offers = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Zapraszamy zarówno dzieci uczące się już wcześniej gry na
-                fortepianie, jak i nowe osoby. Podczas zajęć będzie okazja
+                Zapraszamy <b>zarówno dzieci uczące się już wcześniej gry na
+                fortepianie, jak i nowe osoby</b>. Podczas zajęć będzie okazja
                 poznać tajniki największego z instrumentów, usłyszeć zarówno
                 pełne brzmienie <i>pleno organowego</i>, jak też subtelnych,
-                fletowych głosów. Gra na klawiaturze nożnej (stopami) również
-                będzie interesującym doświadczeniem, podobnie, jak ,,zwiedzanie"
+                fletowych głosów. <b>Gra na klawiaturze nożnej</b> (stopami) również
+                będzie interesującym doświadczeniem, podobnie, jak <b>,,zwiedzanie" </b>
                 wnętrza instrumentu. Z racji specyfiki zajęć, odbywają się one w
                 zaprzyjaźnionych miejsach, posiadających taki instrument.
-                Oferujemy także kursy w zakresie gry liturgicznej,
+                Oferujemy także <b>kursy w zakresie gry liturgicznej</b>,
                 akompaniamentu organowego oraz improwizacji.
               </Typography>
             </AccordionDetails>
@@ -205,7 +206,7 @@ const Offers = () => {
               id="panel1a-header"
             >
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Organizacja koncetów
+                <b>Organizacja koncetów</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -213,12 +214,12 @@ const Offers = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Nasz zespół posiada doświadczenie w organizowaniu wydarzeń
+                Nasz zespół posiada doświadczenie w <b>organizowaniu wydarzeń
                 muzycznych: koncertów, popisów, warsztatów muzycznych dla dzieci
-                i młodzieży. Uczniowie zdobywają praktykę sceniczną, dzieląc się
+                i młodzieży</b>. Uczniowie zdobywają <b>praktykę sceniczną</b>, dzieląc się
                 swoimi interpretacjami. <br />
-                <br /> Wszystkie propozycje współpracy prosimy zamieszcać w
-                formularzu w zakładce Kontakt.
+                <br /> Wszystkie propozycje współpracy prosimy wysyłać w
+                <b> formularzu w zakładce Kontakt</b>.
                 <br />
                 <br />
                 Zachęcamy także do śledzenia <b>wydarzeń koncertowych</b> przez
@@ -233,7 +234,7 @@ const Offers = () => {
               id="panel1a-header"
             >
               <Typography style={{ fontFamily: "Montserrat" }}>
-                Muzyka na Twoim ślubie
+                <b>Muzyka na Twoim ślubie</b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -241,14 +242,14 @@ const Offers = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Zajmujemy się także muzyką podczas ślubów. Zapewniamy
-                dyplomowanego organistę oraz wokalistów, skrzypków, harfistów,
-                wiolonczelistów, jak również innych muzyków. Przygotowujemy
-                indywidualny projekt utworów muzycznych, podpowiadamy, na co
-                zwrócić uwagę, by uniknąć potencjanych problemów. <br />
+                Zajmujemy się także <b>muzyką podczas ślubów</b>. Zapewniamy
+                <b>dyplomowanego organistę oraz wokalistów, skrzypków, harfistów,
+                wiolonczelistów</b>, jak również innych muzyków. Przygotowujemy
+                indywidualny projekt utworów muzycznych, podpowiadamy, <b>na co
+                zwrócić uwagę, by uniknąć potencjanych problemów</b>. <br />
                 <br />
-                Cechuje nas wysoka jakosć, gdyż współpracują z nami jedynie
-                zawodowi, odnoszący sukcesy kompetentni muzycy.
+                Cechuje nas wysoka jakosć, gdyż <b>współpracują z nami jedynie
+                zawodowi, odnoszący sukcesy, kompetentni muzycy</b>.
               </Typography>
             </AccordionDetails>
           </Accordion>
