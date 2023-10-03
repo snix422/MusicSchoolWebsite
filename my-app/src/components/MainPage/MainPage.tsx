@@ -39,8 +39,13 @@ const MainPage = () => {
           >
             Jesteśmy mobilną szkołą muzyczną w Twoim domu. Jeżeli czas z
             bliskimi jest dla Ciebie największą wartością, sprawdź naszą ofertę
-            edukacyjną. Zobacz, jak możesz wspomóc rozwój Twojego dziecka z
-            naszą pomocą!
+            edukacyjną.{" "}
+            <span className="text-yellow-600">
+              <b>
+                Zobacz, jak możesz wspomóc rozwój Twojego dziecka z naszą
+                pomocą!
+              </b>
+            </span>
           </p>
         </motion.div>
         <motion.div
@@ -65,8 +70,10 @@ const MainPage = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                <b>Nie wiem, czy moje dziecko ,,ma słuch" oraz czy nadaje się do
-                muzycznej edukacji?</b>
+                <b>
+                  Nie wiem, czy moje dziecko ,,ma słuch" oraz czy nadaje się do
+                  muzycznej edukacji?
+                </b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -77,10 +84,13 @@ const MainPage = () => {
                 Nasze doświadczenie pokazuje, że{" "}
                 <b>nie ma dzieci niezdolnych - są tylko źle prowadzone</b>. Przy
                 merytoryczym prowadzeniu przez profesjonalnego nauczyciela,
-                każde dziecko jest w stanie rozwinąć się w grze na instrumencie.
-                Oczywiście, tempo rozwoju dzieci jest różne, jednakże{" "}
                 <b>
-                  głównym czynnikiem wpłyawjącym na postęp nauki jest
+                  każde dziecko jest w stanie rozwinąć się w grze na
+                  instrumencie
+                </b>
+                . Oczywiście, tempo rozwoju dzieci jest różne, jednakże{" "}
+                <b>
+                  głównym czynnikiem wpływającym na postęp nauki jest
                   zaangażowanie dziecka, systematyczność, a nie szeroko
                   rozumiany ,,talent".
                 </b>
@@ -112,10 +122,12 @@ const MainPage = () => {
                 neuronalnych. Dziecko uczy się <b>planowania pracy </b>
                 (przygotowania utworu) oraz ,,dowożenia wyników". Konfrontuje
                 się ze swoimi słabościami i uczy się je zwyciężać.{" "}
-                <b>Nabywa pewności siebie</b>, zwiększa sammoocenę, uczy się
-                występować publicznie oraz panować nad stresem. Wreszcie,
-                wzbogaca się wewnętrznie, kulturowo, uwrażliwia na piękno,
-                poznaje utwory kultury muzycznej różnych krajów i epok.
+                <b>
+                  Nabywa pewności siebie, zwiększa sammoocenę, uczy się
+                  występować publicznie oraz panować nad stresem
+                </b>
+                . Wreszcie, wzbogaca się wewnętrznie, kulturowo, uwrażliwia na
+                piękno, poznaje utwory kultury muzycznej różnych krajów i epok.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -138,12 +150,12 @@ const MainPage = () => {
                 style={{ fontFamily: "Montserrat" }}
               >
                 Swoją przygodę rozpoczęliśmy w <b>Łodzi</b> i tutaj działamy
-                najaktywniej. Oczywiście dojeżdżamy również na odległe
-                peryferia. Jesteśmy w trakcie rozwijania projektu także w{" "}
-                <b>Warszawie</b>, <b>Wrocławiu</b> i <b>Gdańsku</b>, wciąż też
-                planujemy poszerzać nasz obszar działania. Prosimy o wiadomość,
-                jeśli są Państwo z innego regionu i byliby Państwo
-                zainteresowani współpracą.
+                najaktywniej. Oczywiście{" "}
+                <b>dojeżdżamy również na odległe peryferia</b>. Jesteśmy w
+                trakcie rozwijania projektu także w <b>Warszawie</b>,{" "}
+                <b>Wrocławiu</b> i <b>Gdańsku</b>, wciąż też planujemy poszerzać
+                nasz obszar działania. Prosimy o wiadomość, jeśli są Państwo z
+                innego regionu i byliby Państwo zainteresowani współpracą.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -172,12 +184,15 @@ const MainPage = () => {
                 , jego osobowości, charakteru, jak również muzycznych
                 kompetencji. Wydobycie dźwięków kilku piosenek z pianina nie
                 jest niczym wyjątkowym, natomiast świadome prowadzenie
-                początkującego ucznia wymaga doświadczenia, procesu
-                dydaktycznego oraz miękkich kompetencji: poczucia humoru,
-                zbudowania relacji z dzieckiem, zrozumienia ,,jego świata" itd.
-                Nierzadko dostajemy uczniów ,,po" przypadkowych lekcjach, ze
-                złymi nawykami oraz niepoukładaną wiedzą. Naprawa tego procesu
-                jest możliwa, lecz{" "}
+                początkującego ucznia{" "}
+                <b>
+                  wymaga doświadczenia, procesu dydaktycznego oraz miękkich
+                  kompetencji: poczucia humoru, zbudowania relacji z dzieckiem,
+                  zrozumienia ,,jego świata"
+                </b>{" "}
+                itd. Nierzadko dostajemy uczniów ,,po" przypadkowych lekcjach,
+                ze złymi nawykami oraz niepoukładaną wiedzą. Naprawa tego
+                procesu jest możliwa, lecz{" "}
                 <b>
                   znacznie łatwiej jest prowadzić go od początku w profesjonalny
                   sposób
@@ -196,8 +211,10 @@ const MainPage = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                <b>Moje dziecko marzy o grze na wiolonczeli, gitarze, innym
-                instrumencie, którego nie ma w ofercie</b>
+                <b>
+                  Moje dziecko marzy o grze na wiolonczeli, gitarze, innym
+                  instrumencie, którego nie ma w ofercie
+                </b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -205,13 +222,20 @@ const MainPage = () => {
                 className="text-justify"
                 style={{ fontFamily: "Montserrat" }}
               >
-                Bardzo prosimy o maila ze wskazaniem konkretnego instrumentu.
-                Współpracując z bardzo wieloma instrumentalistami, z pewnością
-                pomożemy w doborze kompetentnego nauczyciela z potwierdzonymi
-                sukcesami, gdyż głęboko wierzymy, iż nie warto powierzać rozwoju
-                Państwa dziecka przypadkowym osobom. Nasz projekt ciągle się
-                rozwija - kolejne specjalności będą uruchamiane w najbliższym
-                czasie..
+                Bardzo prosimy o maila ze{" "}
+                <b>wskazaniem konkretnego instrumentu</b>. Współpracując z
+                bardzo wieloma instrumentalistami, z pewnością pomożemy w
+                doborze kompetentnego nauczyciela z potwierdzonymi sukcesami,
+                gdyż głęboko wierzymy, iż{" "}
+                <b>
+                  nie warto powierzać rozwoju Państwa dziecka przypadkowym
+                  osobom
+                </b>
+                . Nasz projekt ciągle się rozwija -{" "}
+                <b>
+                  kolejne specjalności będą uruchamiane w najbliższym czasie
+                </b>
+                .
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -225,8 +249,10 @@ const MainPage = () => {
                 className="text-left"
                 style={{ fontFamily: "Montserrat" }}
               >
-                <b>Moje dziecko jest niestałe i obawiam się, że moje dziecko
-                zrezygnuje po kilku lekcjach...</b>
+                <b>
+                  Moje dziecko jest niestałe i obawiam się, że moje dziecko
+                  zrezygnuje po kilku lekcjach...
+                </b>
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -237,9 +263,12 @@ const MainPage = () => {
                 Tutaj (znowu) <b>bardzo dużo zależy od rodzica</b>. Nabywanie
                 umiejętności muzycznych nigdy nie jest procesem liniowym - po
                 pewnym czasie pojawiają się trudności i ,,dołki". Pokonywanie
-                tych przeszkód uczy wytrwałości, a zdobyte kompetencje
-                procentują w dalszym rozwoju - są przekładane na inne dziedziny
-                życia. Takie zwycięstwa nad sobą dają naszym uczniom wiele
+                tych przeszkód{" "}
+                <b>
+                  uczy wytrwałości, a zdobyte kompetencje procentują w dalszym
+                  rozwoju - są przekładane na inne dziedziny życia
+                </b>
+                . Takie zwycięstwa nad sobą dają naszym uczniom wiele
                 satysfakcji.
               </Typography>
             </AccordionDetails>
@@ -250,9 +279,10 @@ const MainPage = () => {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography 
-              className="text-left"
-              style={{ fontFamily: "Montserrat" }}>
+              <Typography
+                className="text-left"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 <b>Jaki jest koszt zajęć?</b>
               </Typography>
             </AccordionSummary>
@@ -265,11 +295,21 @@ const MainPage = () => {
                 dopasowując liczbę godzin w tygodniu do Państwa możliwości
                 czasowych, potrzeb oraz percepcji i wieku dziecka. Na cenę ma
                 wpływ także odległość - czas dojazdu nauczycieli. Podczas
-                rozmowy jesteśmy w stanie doradzić najbardziej optymalną dla
-                Państwa liczbę lekcji, zasugerować wybór innego instruemntu bądź
-                dopasować zajęcia teoretycze. Zachęcamy do skorzystania z
-                pierwszej lekcji próbnej w cenie 300zł, oraz do przeczytania o
-                naszej <b>propozycji wartości</b> w zakładce Dla Kogo.
+                rozmowy jesteśmy w stanie{" "}
+                <b>
+                  doradzić najbardziej optymalną dla Państwa liczbę lekcji,
+                  zasugerować wybór innego instruemntu bądź dopasować zajęcia
+                  teoretycze
+                </b>
+                . Zachęcamy do skorzystania z pierwszej lekcji próbnej w cenie
+                300zł, oraz do przeczytania o naszej{" "}
+                <a href="https://panodmuzyki.com.pl/dlakogo">
+                  <b>propozycji wartości</b> w zakładce{" "}
+                  <b>
+                    <u>Dla Kogo</u>
+                  </b>
+                </a>
+                .
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -292,9 +332,9 @@ const MainPage = () => {
                 style={{ fontFamily: "Montserrat" }}
               >
                 Wszyscy nasi nauczyciele, jako aktywni zawodowo artyści,
-                prowadzą zajecia również w języku angielskim (nieodpłatnie).
-                Część Kadry posługuje się także językiem niemieckim i
-                francuskim.
+                prowadzą zajecia również{" "}
+                <b>w języku angielskim (nieodpłatnie)</b>. Część Kadry posługuje
+                się także językiem niemieckim i francuskim.
               </Typography>
             </AccordionDetails>
           </Accordion>
