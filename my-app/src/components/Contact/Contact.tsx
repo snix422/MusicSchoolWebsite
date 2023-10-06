@@ -88,7 +88,7 @@ const Contact = () => {
                     className="text-white text-xl"
                     style={{ fontFamily: "Montserrat" }}
                   >
-                    698 873 023
+                    <a href="tel:+48698873023">698 873 023</a>
                   </h3>
                 </div>
               </div>
@@ -105,7 +105,9 @@ const Contact = () => {
                     className="text-white text-xl"
                     style={{ fontFamily: "Montserrat" }}
                   >
-                    kontakt@panodmuzyki.com.pl
+                    <a href="mailto:kontakt@panodmuzyki.com.pl">
+                      kontakt@panodmuzyki.com.pl
+                    </a>
                   </h3>
                 </div>
               </div>

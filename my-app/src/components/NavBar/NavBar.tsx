@@ -2,7 +2,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
 import "../../App.css";
 import { Drawer } from "@mui/material";
-
+import SocialMedia from "../Footer/SocialMedia";
 import { useState } from "react";
 import CloseIcon from "@mui/icons-material/Close";
 import logoFirmowe from "../../assets/images/logoNavBar/Original Logo.png";
@@ -18,7 +18,11 @@ const NavBar = () => {
           alt="logo"
         ></img>
       </Link>
+
       <ul className="flex xl:gap-28 lg:gap-10 md:gap-6 ml-48 max-lg:hidden">
+        <li className="text-white link" style={{ fontFamily: "Montserrat" }}>
+          <Link to="/faq">Typowe pytania</Link>
+        </li>
         <li className="text-white link" style={{ fontFamily: "Montserrat" }}>
           <Link to="/oferta">Oferta edukacyjna</Link>
         </li>
@@ -34,10 +38,12 @@ const NavBar = () => {
         <li className="text-white link" style={{ fontFamily: "Montserrat" }}>
           <Link to="/kontakt">Kontakt</Link>
         </li>
+
         {/* <li className="text-white link" style={{ fontFamily: "Montserrat" }}>
           <Link to="/partnerzy">Nasi partnerzy</Link>
         </li> */}
       </ul>
+
       <MenuIcon
         sx={{ color: "white" }}
         className="invisible absolute right-20 max-lg:visible"
@@ -51,6 +57,9 @@ const NavBar = () => {
         <div className="flex flex-col bg-black text-white items-center gap-5 pb-10 pt-10 relative">
           <Link style={{ fontFamily: "Montserrat" }} to="/">
             Strona główna
+          </Link>
+          <Link style={{ fontFamily: "Montserrat" }} to="/faq">
+            Typowe pytania
           </Link>
           <Link style={{ fontFamily: "Montserrat" }} to="/oferta">
             Oferta edukacyjna
