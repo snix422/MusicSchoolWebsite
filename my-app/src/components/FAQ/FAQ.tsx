@@ -40,13 +40,16 @@ const FAQ = () => {
           </span>{" "}
           i z chęcią umówimy się na{" "}
           <span className="text-yellow-600">
-            <b>indywidualną rozmowę</b>
+            <b>darmową konsultację</b>
           </span>
           . Zachęcamy jedak gorąco do{" "}
           <span className="text-yellow-600">
             <b>przeczytania w pierwszej kolejności</b>
           </span>{" "}
           poniższych zapytań:
+          <br />
+          <br />
+          <br />
         </motion.p>
         <motion.div
           initial={{ y: 100, opacity: 0 }}
@@ -297,7 +300,7 @@ const FAQ = () => {
                   teoretycze
                 </b>
                 . Zachęcamy do skorzystania z pierwszej lekcji próbnej w cenie
-                300zł, oraz do przeczytania o naszej{" "}
+                200zł, oraz do przeczytania o naszej{" "}
                 <a href="/dlakogo">
                   <b>propozycji wartości</b> w zakładce{" "}
                   <b>
@@ -305,6 +308,10 @@ const FAQ = () => {
                   </b>
                 </a>
                 .
+                <br />
+                <br />
+                Oferjemy <b>atrakcyjne rabaty dla rodzeństwa!</b> Drugie dziecko
+                uczymy z 30% rabatem, trzecie z 60%.
               </Typography>
             </AccordionDetails>
           </Accordion>
