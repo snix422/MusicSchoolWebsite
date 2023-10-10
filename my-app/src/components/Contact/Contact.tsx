@@ -8,6 +8,8 @@ import { Alert } from "@mui/material";
 import emailjs from "@emailjs/browser";
 import ScrollToTop from "react-scroll-to-top";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
   const [fullName, setFullName] = useState("");
@@ -49,6 +51,7 @@ const Contact = () => {
         },
         (error: any) => {}
       );
+      toast.success('Dziękujemy za wiadomość. Skontaktujemy się niezwłocznie!')
   };
 
   return (
@@ -62,9 +65,9 @@ const Contact = () => {
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
-          className="flex items-center gap-36 max-lg:flex-col max-sm:gap-20"
+          className="w-full flex justify-center items-center max-lg:flex-col max-sm:gap-10"
         >
-          <div className="flex flex-col justify-start items-center  gap-36 max-lg:flex-col max-sm:gap-20 pb-14">
+          <div className="w-2/4 flex flex-col justify-start items-center gap-36 max-md:w-full max-lg:flex-col max-md:gap-10 pb-14">
             <motion.h2
               initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -74,7 +77,7 @@ const Contact = () => {
             >
               Kontakt
             </motion.h2>
-            <div className="flex gap-28 max-sm:flex-col">
+            <div className="flex gap-28 max-sm:flex-col max-md:gap-10 max-md:text-xs">
               <div className="flex flex-col items-center gap-5">
                 <h2
                   className="text-white text-2xl"
@@ -117,24 +120,24 @@ const Contact = () => {
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
-            className="flex flex-col gap-1"
+            className="flex w-2/4 max-md:w-full flex-col items-center gap-1"
           >
             <h2
               className="text-center text-white pb-5 text-4xl max-sm:text-2xl"
               style={{ fontFamily: "Montserrat" }}
             >
-              Skontaktuj się z nami!
+              Napisz do Mnie!
             </h2>
             <form
               ref={form}
               onSubmit={sendEmail}
-              className="flex flex-col gap-3 max-md:items-center"
+              className="w-full flex flex-col items-center gap-3 max-md:items-center"
               style={{ fontFamily: "Montserrat" }}
             >
               <input
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
-                className="w-full h-10 pl-2 max-md:w-3/4 rounded input form-control"
+                className="w-3/5 h-10 pl-2 max-md:w-3/4 rounded input form-control"
                 type="text"
                 name="user_name"
                 placeholder="Imię i nazwisko"
@@ -142,7 +145,7 @@ const Contact = () => {
               <input
                 value={mail}
                 onChange={(e) => setMail(e.target.value)}
-                className="w-full max-md:w-3/4 h-10 pl-2 rounded input form-control"
+                className="w-3/5 max-md:w-3/4 h-10 pl-2 rounded input form-control"
                 type="text"
                 name="user_email"
                 placeholder="E-mail"
@@ -150,7 +153,7 @@ const Contact = () => {
               <textarea
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                className="w-full max-md:w-3/4 h-28 pl-2 rounded input form-control"
+                className="w-3/5 max-md:w-3/4 h-28 pl-2 rounded input form-control"
                 name="message"
                 placeholder="Wiadomość..."
               ></textarea>
@@ -162,12 +165,10 @@ const Contact = () => {
                     mail.length !== 0 &&
                     message.length !== 0
                   ) {
-                    alert(
-                      "Dziękujemy za wiadomość. Skontaktujemy się niezwłocznie!"
-                    );
+                    
                   }
                 }}
-                className="w-full max-md:w-3/4 text-white bg-yellow-600 rounded font-bold pt-1 pb-1"
+                className="w-3/5 max-md:w-3/4 text-white bg-yellow-600 rounded font-bold pt-1 pb-1"
                 style={{ fontFamily: "Montserrat" }}
               >
                 Wyślij
@@ -186,6 +187,7 @@ const Contact = () => {
         style={{ marginBottom: "30px" }}
       ></ScrollToTop>
       <Footer />
+      <ToastContainer />
     </div>
   );
 };

@@ -8,7 +8,6 @@ const Footer = () => {
       <ScrollToTop smooth={true} top={500} component={<KeyboardArrowUpIcon />} color="blue" height="20" style={{marginBottom:'40px'}}>
     </ScrollToTop>
       <h5 className="text-white">Copywright © Pan od Muzyki 2023 </h5>
-      <SocialMedia />
     </div>
   );
 };
