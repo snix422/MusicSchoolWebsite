@@ -50,26 +50,20 @@ const MainPage = () => {
             style={{ fontFamily: "Montserrat", hyphens: "auto" }}
           >
             <br />
-            Zapraszamy Cię do przeczytania o naszej{" "}
-            <a href="/dlakogo">
-              {" "}
-              <span className="text-yellow-600">
-                <b>propozycji wartości</b>
-              </span>
-            </a>{" "}
-            oraz lektury{" "}
-            <a href="/faq">
-              <span className="text-yellow-600">
-                <b>najczęściej zadawanych pytań</b>
-              </span>
-            </a>
-            . Umów się także na{" "}
+            Zapraszamy na{" "}
             <a href="tel:698873023">
               <span className="text-yellow-600">
                 <b>darmową konsultację</b>
               </span>
             </a>
-            , by porozmawiać o możliwościach edukacji muzycznej Twojego dziecka!
+            , podczas której dowiesz się, co możemy Ci zaproponować! Polecamy
+            także przeczytać o naszej{" "}
+            <a href="/dlakogo">
+              <span className="text-yellow-600">
+                <b>propozycji wartości</b>
+              </span>
+            </a>
+            .
           </p>
         </motion.div>
       </div>

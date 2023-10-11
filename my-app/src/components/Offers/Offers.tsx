@@ -38,6 +38,7 @@ const Offers = () => {
             <strong>indywidualnie dla każdego ucznia!</strong>
           </span>
           <br />
+          <br />
           Chętnie{" "}
           <span className="text-yellow-600">
             <strong>doradzimy w wyborze pierwszego instrumentu</strong>
@@ -54,6 +55,8 @@ const Offers = () => {
           </a>
           , gdyż podczas rozmowy zadamy pytania, które pomogą jak najlepiej
           dopasować ofertę do potrzeb Państwa dziecka.
+          <br />
+          <br />
         </motion.p>
         <motion.div
           initial={{ y: 100, opacity: 0 }}
@@ -189,8 +192,8 @@ const Offers = () => {
                 dydaktyczne nauczyciela. Podczas zajęć będzie rezalizowany
                 zarówno <b>pion programowy Szkoły Muzycznej</b>, jak również
                 pozycje z <b>literatury filmowej czy popularnej</b>. Uczeń
-                będzie miał możliwość
-                <b>uczestniczenia w warsztatach i spokaniach klarnetowych</b>,
+                będzie miał możliwość 
+                 <b>uczestniczenia w warsztatach i spokaniach klarnetowych</b>,
                 by wspólnie z innymi muzykami rozwijać swój talent.
               </Typography>
             </AccordionDetails>
