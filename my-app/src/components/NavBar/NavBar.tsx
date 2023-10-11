@@ -10,16 +10,16 @@ import logoFirmowe from "../../assets/images/logoNavBar/Original Logo.png";
 const NavBar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   return (
-    <div className="w-screen h-28 bg-black relative flex justify-center items-center fixed">
+    <div className="w-screen h-40 max-md:h-56 bg-black relative flex justify-center items-center fixed ">
       <Link to="/">
         <img
           src={logoFirmowe}
-          className="h-28 w-48 absolute left-4 top-0"
+          className="h-40 w-80 max-md:h-28 max-md:w-48 absolute left-4 top-8"
           alt="logo"
         ></img>
       </Link>
 
-      <ul className="flex xl:gap-28 lg:gap-10 md:gap-6 ml-48 max-lg:hidden">
+      <ul className="flex xl:gap-20 lg:gap-10 md:gap-6 ml-48 max-lg:hidden">
         <li className="text-white link" style={{ fontFamily: "Montserrat" }}>
           <Link to="/faq">Typowe pytania</Link>
         </li>
@@ -43,10 +43,9 @@ const NavBar = () => {
           <Link to="/partnerzy">Nasi partnerzy</Link>
         </li> */}
       </ul>
-
       <MenuIcon
         sx={{ color: "white" }}
-        className="invisible absolute right-20 max-lg:visible"
+        className="invisible absolute right-20 top-20 max-lg:visible"
         onClick={() => setIsDrawerOpen(true)}
       />
       <Drawer
@@ -85,6 +84,7 @@ const NavBar = () => {
           />
         </div>
       </Drawer>
+      <SocialMedia />
     </div>
   );
 };

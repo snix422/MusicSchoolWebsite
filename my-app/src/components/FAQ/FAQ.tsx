@@ -16,12 +16,12 @@ const FAQ = () => {
   return (
     <div className="min-h-screen">
       <NavBar />
-      <div className="w-screen min-h-screen bg-black flex flex-col items-center gap-28 pb-10 pt-10 max-sm:justify-center max-sm:gap-2 xl:pt-48 lg:pt-48 md:pt-28 sm:pt-5 max-sm:pb-5">
+      <div className="w-screen min-h-screen bg-black flex flex-col items-center gap-28 pb-10 pt-20 max-sm:justify-center max-sm:gap-2 xl:pt-48 lg:pt-48 md:pt-28 sm:pt-5 max-sm:pb-5">
         <motion.h2
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
-          className="text-white text-3xl max-sm:pb-10 max-sm:pt-10 max-md:w-4/5"
+          className="text-white mt-5 text-3xl max-sm:pb-10 max-sm:pt-10 max-md:w-4/5"
           style={{ fontFamily: "Montserrat", marginTop: "-80px" }}
         >
           Najczęściej zadawane pytania:
