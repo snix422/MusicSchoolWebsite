@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const SocialMedia = () => {
   return (
-    <div className="flex gap-5 absolute xl:right-32 lg:right-32 max-md:bottom-5">
+    <div className="flex gap-5 items-start max-md:hidden">
       <Link
         to="https://www.facebook.com/people/Pan-od-Muzyki/61551393304760/"
         target="blank"
@@ -11,8 +11,8 @@ const SocialMedia = () => {
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
           y="0px"
-          width="35"
-          height="35"
+          width="30"
+          height="30"
           viewBox="0 0 48 48"
         >
           <path
@@ -30,9 +30,10 @@ const SocialMedia = () => {
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
           y="0px"
-          width="35"
-          height="35"
+          width="30"
+          height="30"
           viewBox="0 0 48 48"
+
         >
           <path
             fill="#FF3D00"

@@ -65,20 +65,20 @@ const Contact = () => {
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
-          className="w-full flex justify-center items-center max-lg:flex-col max-sm:gap-10"
+          className="w-full flex justify-center items-center max-xl:flex-col max-sm:gap-10"
         >
-          <div className="w-2/4 flex flex-col justify-start items-center gap-36 max-md:w-full max-lg:flex-col max-md:gap-10 pb-14">
+          <div className="w-full flex flex-col justify-start items-center gap-36 max-md:w-full max-lg:flex-col max-md:gap-10 pb-14" style={{border:'2px solid red'}}>
             <motion.h2
               initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.5, duration: 1 }}
               className="text-white text-4xl"
-              style={{ fontFamily: "Montserrat" }}
+              style={{ fontFamily: "Montserrat"}}
             >
               Kontakt
             </motion.h2>
-            <div className="flex gap-28 max-sm:flex-col max-md:gap-10 max-md:text-xs">
-              <div className="flex flex-col items-center gap-5">
+            <div className="flex justify-center gap-28 max-sm:flex-col max-md:items-center max-md:gap-10 max-md:text-xs max-xl:w-3/4" style={{border:'2px solid red'}}>
+              <div className="flex flex-col items-center gap-5 w-2/4 ">
                 <h2
                   className="text-white text-2xl"
                   style={{ fontFamily: "Montserrat" }}
@@ -95,7 +95,7 @@ const Contact = () => {
                   </h3>
                 </div>
               </div>
-              <div className="flex flex-col gap-5">
+              <div className="flex flex-col items-center gap-5 w-2/4 max-md:w-full">
                 <h2
                   className="text-white text-2xl"
                   style={{ fontFamily: "Montserrat" }}
@@ -120,7 +120,7 @@ const Contact = () => {
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
-            className="flex w-2/4 max-md:w-full flex-col items-center gap-1"
+            className="flex w-2/4 max-md:w-full md:w-full lg:w-4/5 flex-col items-center gap-1"
           >
             <h2
               className="text-center text-white pb-5 text-4xl max-sm:text-2xl"
