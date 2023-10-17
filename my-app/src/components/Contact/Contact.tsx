@@ -67,7 +67,7 @@ const Contact = () => {
           transition={{ delay: 0.5, duration: 1 }}
           className="w-full flex justify-center items-center max-xl:flex-col max-sm:gap-10"
         >
-          <div className="w-full flex flex-col justify-start items-center gap-36 max-md:w-full max-lg:flex-col max-md:gap-10 pb-14" style={{border:'2px solid red'}}>
+          <div className="w-full flex flex-col justify-start items-center gap-36 max-md:w-full max-lg:flex-col max-md:gap-10 pb-14">
             <motion.h2
               initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -77,8 +77,8 @@ const Contact = () => {
             >
               Kontakt
             </motion.h2>
-            <div className="flex justify-center gap-28 max-sm:flex-col max-md:items-center max-md:gap-10 max-md:text-xs max-xl:w-3/4" style={{border:'2px solid red'}}>
-              <div className="flex flex-col items-center gap-5 w-2/4 ">
+            <div className="flex justify-center gap-28 max-sm:flex-col max-md:items-center max-md:gap-10 max-md:text-xs max-xl:w-3/4">
+              <div className="flex flex-col items-center gap-5 w-2/4 max-md:w-full ">
                 <h2
                   className="text-white text-2xl"
                   style={{ fontFamily: "Montserrat" }}
