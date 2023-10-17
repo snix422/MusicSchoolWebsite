@@ -8,8 +8,8 @@ import { Alert } from "@mui/material";
 import emailjs from "@emailjs/browser";
 import ScrollToTop from "react-scroll-to-top";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const [fullName, setFullName] = useState("");
@@ -51,7 +51,7 @@ const Contact = () => {
         },
         (error: any) => {}
       );
-      toast.success('Dziękujemy za wiadomość. Skontaktujemy się niezwłocznie!')
+    toast.success("Dziękujemy za wiadomość. Skontaktujemy się niezwłocznie!");
   };
 
   return (
@@ -91,7 +91,7 @@ const Contact = () => {
                     className="text-white text-xl"
                     style={{ fontFamily: "Montserrat" }}
                   >
-                    <a href="tel:+48698873023">698 873 023</a>
+                    <a href="tel:+48725729621">725 729 621</a>
                   </h3>
                 </div>
               </div>
@@ -126,7 +126,7 @@ const Contact = () => {
               className="text-center text-white pb-5 text-4xl max-sm:text-2xl"
               style={{ fontFamily: "Montserrat" }}
             >
-              Napisz do Mnie!
+              Napisz do nas!
             </h2>
             <form
               ref={form}
@@ -165,7 +165,6 @@ const Contact = () => {
                     mail.length !== 0 &&
                     message.length !== 0
                   ) {
-                    
                   }
                 }}
                 className="w-3/5 max-md:w-3/4 text-white bg-yellow-600 rounded font-bold pt-1 pb-1"

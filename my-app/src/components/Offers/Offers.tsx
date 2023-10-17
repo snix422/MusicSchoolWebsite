@@ -38,6 +38,7 @@ const Offers = () => {
             <strong>indywidualnie dla każdego ucznia!</strong>
           </span>
           <br />
+          <br />
           Chętnie{" "}
           <span className="text-yellow-600">
             <strong>doradzimy w wyborze pierwszego instrumentu</strong>
@@ -54,6 +55,8 @@ const Offers = () => {
           </a>
           , gdyż podczas rozmowy zadamy pytania, które pomogą jak najlepiej
           dopasować ofertę do potrzeb Państwa dziecka.
+          <br />
+          <br />
         </motion.p>
         <motion.div
           initial={{ y: 100, opacity: 0 }}
@@ -92,7 +95,9 @@ const Offers = () => {
                   odnoszą sukcesy na lokalnych oraz ogólnopolskich konkursach
                   muzycznych
                 </b>
-                . Zapraszamy także uczniów Szkół Muzycznych, potrzebujących
+                . <br />
+                <br />
+                Zapraszamy także uczniów Szkół Muzycznych, potrzebujących
                 korepetycji, lekcji uzupełniających bądź doraźnych konsultacji.
                 Nasi pedagodzy są przygotowani, by{" "}
                 <b>
@@ -127,15 +132,125 @@ const Offers = () => {
                   okazje do gry kameralnej (zespołowej), zwłaszcza podczas
                   corocznych Warsztatów muzycznych
                 </b>
-                . Zapraszamy także uczniów Państwowych Szkół Muzycznych,
+                . <br />
+                <br />
+                Zapraszamy także uczniów Państwowych Szkół Muzycznych,
                 potrzebujących
+                <b> lekcji uzupełniających bądź doraźnych konsultacji</b>. Nasi
+                pedagodzy są przygotowani, by pomóc w takiej sytuacji, opracować
+                bądź skorygować plan ćwiczenia, projektowo{" "}
+                <b>przygotować ucznia do nadchodzącego egzaminu</b>.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion className="w-3/5 max-md:w-4/5">
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                <b>Flet</b>
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography
+                className="text-left"
+                style={{ fontFamily: "Montserrat" }}
+              >
+                A może to piękne brzmienie <b>fletu poprzecznego</b> zachwyciło
+                Państwa dziecko? Zapewniamy lekcje gry na tym instrumencie,
+                także <b>dla najmłodszych</b>! <br />
+                Pod okiem doświadczonego pedagoga{" "}
+                <b>
+                  poznasz tajniki wydobycia dźwięku, poprawnego oddechu oraz
+                  artykulacji
+                </b>
+                . Jesteśmy gotowi także na{" "}
+                <b>konsultacje w trybie indywidualnym!</b>
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion className="w-3/5 max-md:w-4/5">
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                <b>Gitara</b>
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography
+                className="text-left"
+                style={{ fontFamily: "Montserrat" }}
+              >
+                Zapraszamy na{" "}
+                <b>indywidualnye zajęcia z gry na gitarze w Państwa domu</b> pod
+                kierunkiem doświadczonego pedagoga. Z jego pomocą wybierzesz
+                najpierw odpowiedni instrumentu. Tworzymy także{" "}
+                <b>
+                  okazje do gry w <b>zespole gitarowym</b>
+                </b>
+                . Pomagamy ponadto uczniom Państwowych Szkół Muzycznych,
+                potrzebującym
                 <b>
                   {" "}
                   korepetycji, lekcji uzupełniających bądź doraźnych konsultacji
                 </b>
-                . Nasi pedagodzy są przygotowani, by pomóc w takiej sytuacji,
-                opracować bądź skorygować plan ćwiczenia, projektowo{" "}
-                <b>przygotować ucznia do nadchodzącego egzaminu</b>.
+                .
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion className="w-3/5 max-md:w-4/5">
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                <b>Akordeon</b>
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography
+                className="text-left"
+                style={{ fontFamily: "Montserrat" }}
+              >
+                Oferujemy <b>lekcje gry na akordeonie</b> guzikowym oraz
+                klawiszowym pod okiem doświadczonego pedagoga-specjalisty.
+                Repertuar, poza kanonami literatury klasycznej, stanowi także w
+                dużej mierze <b>muzyka rozrywkowa i współczesna</b>. Nasi
+                pedagodzy są gotowi także{" "}
+                <b>pomóc w wyborze odpowiedniego instrumentu</b> oraz udzielić{" "}
+                <b>konsultacji przed zakupem</b>.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion className="w-3/5  max-md:w-4/5">
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <Typography style={{ fontFamily: "Montserrat" }}>
+                <b>Klarnet</b>
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography
+                className="text-left"
+                style={{ fontFamily: "Montserrat" }}
+              >
+                Zapraszamy na <b>indywidualne lekcje gry na klarnecie</b> pod
+                okiem uznanego, posiadającego liczne sukcesy artystyczne i
+                dydaktyczne nauczyciela. Podczas zajęć będzie rezalizowany
+                zarówno <b>pion programowy Szkoły Muzycznej</b>, jak również
+                pozycje z <b>literatury filmowej czy popularnej</b>. Uczeń
+                będzie miał możliwość
+                <b>uczestniczenia w warsztatach i spokaniach klarnetowych</b>,
+                by wspólnie z innymi muzykami rozwijać swój talent.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -169,32 +284,6 @@ const Offers = () => {
             </AccordionDetails>
           </Accordion>
 
-          <Accordion className="w-3/5  max-md:w-4/5">
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel1a-content"
-              id="panel1a-header"
-            >
-              <Typography style={{ fontFamily: "Montserrat" }}>
-                <b>Klarnet</b>
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography
-                className="text-left"
-                style={{ fontFamily: "Montserrat" }}
-              >
-                Zapraszamy na <b>indywidualne lekcje gry na klarnecie</b> pod
-                okiem uznanego, posiadającego liczne sukcesy artystyczne i
-                dydaktyczne nauczyciela. Podczas zajęć będzie rezalizowany
-                zarówno <b>pion programowy Szkoły Muzycznej</b>, jak również
-                pozycje z <b>literatury filmowej czy popularnej</b>. Uczeń
-                będzie miał możliwość
-                <b>uczestniczenia w warsztatach i spokaniach klarnetowych</b>,
-                by wspólnie z innymi muzykami rozwijać swój talent.
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
           <Accordion className="w-3/5  max-md:w-4/5">
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
