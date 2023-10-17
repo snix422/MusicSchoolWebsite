@@ -1,4 +1,3 @@
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
 import { motion } from "framer-motion";
