@@ -149,11 +149,11 @@ const FAQ = () => {
               >
                 Swoją przygodę rozpoczęliśmy w <b>Łodzi</b> i tutaj działamy
                 najaktywniej. Oczywiście{" "}
-                <b>dojeżdżamy również na odległe peryferia</b>. Jesteśmy w
-                trakcie rozwijania projektu także w <b>Warszawie</b>,{" "}
-                <b>Wrocławiu</b> i <b>Gdańsku</b>, wciąż też planujemy poszerzać
-                nasz obszar działania. Prosimy o wiadomość, jeśli są Państwo z
-                innego regionu i byliby Państwo zainteresowani współpracą.
+                <b>dojeżdżamy również na odległe peryferia</b>. Otworzyliśmy
+                szkoły także w <b>Warszawie</b>, <b>Wrocławiu</b> i{" "}
+                <b>Gdańsku</b>, wciąż też planujemy poszerzać nasz obszar
+                działania. Prosimy o wiadomość, jeśli są Państwo z innego
+                regionu i byliby Państwo zainteresowani współpracą.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -210,7 +210,7 @@ const FAQ = () => {
                 style={{ fontFamily: "Montserrat" }}
               >
                 <b>
-                  Moje dziecko marzy o grze na wiolonczeli, gitarze, innym
+                  Moje dziecko marzy o grze na innym
                   instrumencie, którego nie ma w ofercie
                 </b>
               </Typography>
