@@ -34,22 +34,22 @@ const Offers = () => {
         >
           Poniżej znajdują się informacje o kursach, jakie świadczymy. Program
           jest przygotowywany{" "}
-          <span className="text-yellow-600">
+          <span style={{ color: "#b534d6" }}>
             <strong>indywidualnie dla każdego ucznia!</strong>
           </span>
           <br />
           <br />
           Chętnie{" "}
-          <span className="text-yellow-600">
+          <span style={{ color: "#b534d6" }}>
             <strong>doradzimy w wyborze pierwszego instrumentu</strong>
           </span>
           , bądź zapewnimy
-          <span className="text-yellow-600">
+          <span style={{ color: "#b534d6" }}>
             <strong> lekcje próbne na kilku z nich.</strong>
           </span>{" "}
           Zachęcamy jednak do{" "}
           <a href="tel:698873023">
-            <span className="text-yellow-600">
+            <span style={{ color: "#b534d6" }}>
               <strong>kontaktu telefonicznego</strong>
             </span>
           </a>

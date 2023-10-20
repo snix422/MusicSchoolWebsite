@@ -35,15 +35,15 @@ const FAQ = () => {
         >
           Poniżej znajdują się pytania, na które odpowiadamy najczęściej. Mamy
           jednak świadomość, że{" "}
-          <span className="text-yellow-600">
+          <span style={{ color: "#b534d6" }}>
             <b>każde dziecko jest wyjątkowe</b>
           </span>{" "}
           i z chęcią umówimy się na{" "}
-          <span className="text-yellow-600">
+          <span style={{ color: "#b534d6" }}>
             <b>darmową konsultację</b>
           </span>
           . Zachęcamy jedak gorąco do{" "}
-          <span className="text-yellow-600">
+          <span style={{ color: "#b534d6" }}>
             <b>przeczytania w pierwszej kolejności</b>
           </span>{" "}
           poniższych zapytań:
@@ -210,8 +210,8 @@ const FAQ = () => {
                 style={{ fontFamily: "Montserrat" }}
               >
                 <b>
-                  Moje dziecko marzy o grze na innym
-                  instrumencie, którego nie ma w ofercie
+                  Moje dziecko marzy o grze na innym instrumencie, którego nie
+                  ma w ofercie
                 </b>
               </Typography>
             </AccordionSummary>

@@ -51,7 +51,9 @@ const Contact = () => {
         },
         (error: any) => {}
       );
-    toast.success("Dziękujemy za wiadomość. Skontaktujemy się niezwłocznie!");
+    toast.success(
+      "Dziękujemy za wiadomość. Skontaktujemy się w ciągu najbliższych 3 godzin!"
+    );
   };
 
   return (
@@ -73,7 +75,7 @@ const Contact = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.5, duration: 1 }}
               className="text-white text-4xl"
-              style={{ fontFamily: "Montserrat"}}
+              style={{ fontFamily: "Montserrat" }}
             >
               Kontakt
             </motion.h2>
@@ -167,8 +169,8 @@ const Contact = () => {
                   ) {
                   }
                 }}
-                className="w-3/5 max-md:w-3/4 text-white bg-yellow-600 rounded font-bold pt-1 pb-1"
-                style={{ fontFamily: "Montserrat" }}
+                className="w-3/5 max-md:w-3/4 text-white rounded font-bold pt-1 pb-1"
+                style={{ fontFamily: "Montserrat", backgroundColor: "#a201cc" }}
               >
                 Wyślij
               </button>

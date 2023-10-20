@@ -24,7 +24,7 @@ const ForWhom = () => {
           style={{ fontFamily: "Montserrat" }}
         >
           Jeżeli{" "}
-          <span className="text-yellow-600">
+          <span style={{ color: "#b534d6" }}>
             <b>czas z bliskimi jest dla Państwa największą wartością</b>
           </span>
           , jesteśmy idealnym wyborem. Przywieziemy do Państwa domu
@@ -37,7 +37,7 @@ const ForWhom = () => {
           popularnej i filmowej. <br />
           <br />
           Nasi klienci chwalą szczególnie{" "}
-          <span className="text-yellow-600">
+          <span style={{ color: "#b534d6" }}>
             <strong>świetny kontakt z dziećmi</strong>
           </span>{" "}
           oraz elastyczność i dyspozycyjność. Uczniowie mogą w każdym momencie
@@ -46,11 +46,11 @@ const ForWhom = () => {
           <br />
           <br />
           Udało się nam przenieść na grunt pedagogiki muzycznej{" "}
-          <span className="text-yellow-600">
+          <span style={{ color: "#b534d6" }}>
             <strong>metodykę zwinnego zarządzania projektami (Agile)</strong>
           </span>{" "}
           . Pracując w{" "}
-          <span className="text-yellow-600">
+          <span style={{ color: "#b534d6" }}>
             <b>cyklach PDCA</b>
           </span>
           , wcześnie reagujemy na potencjalne problemy. Uczeń jest w zdalnym
@@ -61,7 +61,7 @@ const ForWhom = () => {
           <br />
           Jesteśmy przekonani, że dobrzy nauczyciele nie tylko ,,mają
           podejście", lecz tworzą{" "}
-          <span className="text-yellow-600">
+          <span style={{ color: "#b534d6" }}>
             <b>wydajne procesy nauczania</b>
           </span>
           . Lekcje z nami mają przejrzysta strukturę, a czas ucznia wkorzystany

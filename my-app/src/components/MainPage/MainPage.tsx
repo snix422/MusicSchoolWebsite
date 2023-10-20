@@ -35,7 +35,7 @@ const MainPage = () => {
             bliskimi jest dla Ciebie największą wartością, sprawdź naszą ofertę
             edukacyjną.{" "}
             <a href="/oferta">
-              <span className="text-yellow-600">
+              <span style={{ color: "#b534d6" }}>
                 <b>
                   Zobacz, jak możesz wspomóc rozwój Twojego dziecka z naszą
                   pomocą!
@@ -51,14 +51,14 @@ const MainPage = () => {
             <br />
             Zapraszamy na{" "}
             <a href="tel:698873023">
-              <span className="text-yellow-600">
+              <span style={{ color: "#b534d6" }}>
                 <b>darmową konsultację</b>
               </span>
             </a>
             , podczas której dowiesz się, co możemy Ci zaproponować! Polecamy
             także przeczytać o naszej{" "}
             <a href="/dlakogo">
-              <span className="text-yellow-600">
+              <span style={{ color: "#b534d6" }}>
                 <b>propozycji wartości</b>
               </span>
             </a>
