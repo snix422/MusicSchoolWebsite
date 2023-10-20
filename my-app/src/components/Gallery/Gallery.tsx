@@ -9,14 +9,14 @@ import img5 from "../../assets/images/gallery/5.jpg";
 import img6 from "../../assets/images/gallery/6.jpg";
 import img7 from "../../assets/images/gallery/7.jpg";
 import img8 from "../../assets/images/gallery/8.jpg";
-import img9 from "../../assets/images/gallery/9.jpg"
+
 import img11 from "../../assets/images/gallery/11.jpg";
 import img12 from "../../assets/images/gallery/12.jpeg";
 import { Modal } from "@mui/material";
 import { useState } from "react";
 
 const Gallery = () => {
-  const photos = [img1, img2, img3, img4, img5, img8, img9, img11, img12];
+  const photos = [img1, img2, img3, img4, img5, img8, img11, img12];
   const [open, setOpen] = useState(false);
   const [currentImg, setCurrentImg] = useState<any>();
 

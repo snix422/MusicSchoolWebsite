@@ -36,10 +36,8 @@ const MainPage = () => {
             edukacyjną.{" "}
             <a href="/oferta">
               <span style={{ color: "#b534d6" }}>
-                <b>
-                  Zobacz, jak możesz wspomóc rozwój Twojego dziecka z naszą
-                  pomocą!
-                </b>
+                Zobacz, jak możesz wspomóc rozwój Twojego dziecka z naszą
+                pomocą!
               </span>
             </a>
           </p>
@@ -50,17 +48,13 @@ const MainPage = () => {
           >
             <br />
             Zapraszamy na{" "}
-            <a href="tel:698873023">
-              <span style={{ color: "#b534d6" }}>
-                <b>darmową konsultację</b>
-              </span>
+            <a href="tel:725729621">
+              <span style={{ color: "#b534d6" }}>darmową konsultację</span>
             </a>
             , podczas której dowiesz się, co możemy Ci zaproponować! Polecamy
             także przeczytać o naszej{" "}
             <a href="/dlakogo">
-              <span style={{ color: "#b534d6" }}>
-                <b>propozycji wartości</b>
-              </span>
+              <span style={{ color: "#b534d6" }}>propozycji wartości</span>
             </a>
             .
           </p>

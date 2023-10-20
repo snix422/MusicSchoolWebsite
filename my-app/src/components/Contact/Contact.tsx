@@ -169,7 +169,7 @@ const Contact = () => {
                   ) {
                   }
                 }}
-                className="w-3/5 max-md:w-3/4 text-white rounded font-bold pt-1 pb-1"
+                className="w-3/5 max-md:w-3/4 text-white rounded font-normal tracking-wider pt-1 pb-1"
                 style={{ fontFamily: "Montserrat", backgroundColor: "#a201cc" }}
               >
                 Wyślij
