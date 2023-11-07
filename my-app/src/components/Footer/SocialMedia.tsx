@@ -4,7 +4,7 @@ const SocialMedia = () => {
   return (
     <div className="flex gap-5 items-start max-md:hidden">
       <Link
-        to="https://www.facebook.com/people/Pan-od-Muzyki/61551393304760/"
+        to="https://www.facebook.com/panodmuzykipl/"
         target="blank"
       >
         <svg

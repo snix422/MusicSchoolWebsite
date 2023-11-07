@@ -142,7 +142,7 @@ const Contact = () => {
                 className="w-3/5 h-10 pl-2 max-md:w-3/4 rounded input form-control"
                 type="text"
                 name="user_name"
-                placeholder="Imię i nazwisko"
+                placeholder="Nr telefonu do kontaktu"
               ></input>
               <input
                 value={mail}
@@ -157,7 +157,7 @@ const Contact = () => {
                 onChange={(e) => setMessage(e.target.value)}
                 className="w-3/5 max-md:w-3/4 h-28 pl-2 rounded input form-control"
                 name="message"
-                placeholder="Wiadomość..."
+                placeholder="Napisz, co możemy dla Ciebie zrobić - im więcej informacji, tym łatwiej nam przygotować ofertę :)"
               ></textarea>
               <button
                 type="submit"

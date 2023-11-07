@@ -80,7 +80,7 @@ const NavBar = () => {
           </Link>
           <div className="flex gap-5">
             <Link
-              to="https://www.facebook.com/people/Pan-od-Muzyki/61551393304760/"
+              to="https://www.facebook.com/panodmuzykipl/"
               target="blank"
             >
               <svg

@@ -175,6 +175,14 @@ const FAQ = () => {
                 className="text-justify"
                 style={{ fontFamily: "Montserrat" }}
               >
+                <a
+                  href="https://www.youtube.com/watch?v=EkO8W8l2Q-c&t=48s&ab_channel=PanodMuzyki"
+                  target="blank"
+                >
+                  <b>Posłuchaj o tym w podcaście - KLIKNIJ!</b>
+                </a>
+                <br />
+                <br />
                 <b>
                   Dziecko niejako ,,patrzy" na instrument przez pryzmat
                   pierwszego nauczyciela
